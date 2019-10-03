@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_+3V3
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_+3V3 #+3V3 0 40 Y Y 1 L P
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V3 0 40 Y Y 1 L P
 F0 "#+3V3" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_+3V3" -100 -200 59 V V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -200 59 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -15,11 +15,11 @@ X +3V3 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_+5V
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_+5V #P+ 0 40 Y Y 1 L P
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+ 0 40 Y Y 1 L P
 F0 "#P+" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_+5V" -100 -200 59 V V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -200 59 V V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -29,11 +29,11 @@ X +5V 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_1X4-CLEANBIG
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_1X4-CLEANBIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_1X4-CLEANBIG CN 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_1X4-CLEANBIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import CN 0 40 Y Y 1 L N
 F0 "CN" 200 300 50 H V R TNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_1X4-CLEANBIG" 0 -400 50 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_1X4-CLEANBIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 0 -400 50 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -48,11 +48,11 @@ X 4 4 -200 -200 200 R 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_74HC4050D
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_74HC4050D-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_74HC4050D U 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_74HC4050D-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import U 0 40 Y Y 1 L N
 F0 "U" -300 900 42 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_74HC4050D" -300 -900 42 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_74HC4050D-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -300 -900 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -114,11 +114,11 @@ X 4A 9 -400 -100 100 R 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_ARDUINO_R3_ICSP_NODIM
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_ARDUINO_R3_ICSP_NODIM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF ~Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_ARDUINO_R3_ICSP_NODIM M 0 40 Y Y 1 L N
+DEF ~Adafruit-SMT-Datalogger-Shield-rev-C-rescue_ARDUINO_R3_ICSP_NODIM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import M 0 40 Y Y 1 L N
 F0 "M" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_ARDUINO_R3_ICSP_NODIM" 0 0 50 H I C CNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_ARDUINO_R3_ICSP_NODIM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -180,11 +180,11 @@ X VIN VIN 1500 -200 200 U 0 50 1 0 W
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_BATTERYCR1220_SMT
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_BATTERYCR1220_SMT-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_BATTERYCR1220_SMT B 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_BATTERYCR1220_SMT-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import B 0 40 Y Y 1 L N
 F0 "B" -100 125 42 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_BATTERYCR1220_SMT" -100 -200 42 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_BATTERYCR1220_SMT-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -200 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -206,11 +206,11 @@ X - - -100 0 0 R 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_CAP_CERAMIC0805-NOOUTLINE
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_CAP_CERAMIC0805-NOOUTLINE C 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C 0 40 Y Y 1 L N
 F0 "C" -90 49 50 V V C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_CAP_CERAMIC0805-NOOUTLINE" 90 49 50 V V C CNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 90 49 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -223,11 +223,11 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_CRYSTAL8.0X3.8
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_CRYSTAL8.0X3.8-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_CRYSTAL8.0X3.8 Y 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_CRYSTAL8.0X3.8-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import Y 0 40 Y Y 1 L N
 F0 "Y" -100 100 42 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_CRYSTAL8.0X3.8" -100 -150 42 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_CRYSTAL8.0X3.8-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -150 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -246,11 +246,11 @@ X 2 P$4 100 0 0 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_FIDUCIAL_1MM
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF ~Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_FIDUCIAL_1MM FID 0 40 Y Y 1 L N
+DEF ~Adafruit-SMT-Datalogger-Shield-rev-C-rescue_FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import FID 0 40 Y Y 1 L N
 F0 "FID" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_FIDUCIAL_1MM" 0 0 50 H I C CNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -260,11 +260,11 @@ P 2 1 0 0 30 30 -30 -30 N
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_GND
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_GND #GND 0 40 Y Y 1 L P
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND 0 40 Y Y 1 L P
 F0 "#GND" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_GND" -100 -100 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -273,11 +273,11 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X1070MIL
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X1070MIL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X1070MIL JP 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X1070MIL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP 0 40 Y Y 1 L N
 F0 "JP" -250 525 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X1070MIL" -250 -700 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X1070MIL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -250 -700 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -298,11 +298,11 @@ X 9 9 -100 -400 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X1ROUND
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X1ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X1ROUND JP 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X1ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP 0 40 Y Y 1 L N
 F0 "JP" -250 125 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X1ROUND" -250 -200 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X1ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -250 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -314,11 +314,11 @@ X 1 1 -100 0 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X2ROUND
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X2ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X2ROUND JP 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X2ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP 0 40 Y Y 1 L N
 F0 "JP" -250 225 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_HEADER-1X2ROUND" -250 -200 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_HEADER-1X2ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -250 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -331,11 +331,11 @@ X 2 2 -100 0 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_LED0805_NOOUTLINE
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_LED0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_LED0805_NOOUTLINE D 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_LED0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import D 0 40 Y Y 1 L N
 F0 "D" -50 175 42 H V C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_LED0805_NOOUTLINE" -50 -110 42 H V C CNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_LED0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -50 -110 42 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -357,11 +357,11 @@ X C C 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_LETTER_L
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_LETTER_L-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF ~Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_LETTER_L #FRAME 0 40 Y Y 2 L N
+DEF ~Adafruit-SMT-Datalogger-Shield-rev-C-rescue_LETTER_L-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #FRAME 0 40 Y Y 2 L N
 F0 "#FRAME" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_LETTER_L" 0 0 50 H I C CNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_LETTER_L-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -399,11 +399,11 @@ P 2 2 0 0 4000 1400 4000 900 N
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_PINHD-1X6B
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_PINHD-1X6B-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_PINHD-1X6B JP 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_PINHD-1X6B-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP 0 40 Y Y 1 L N
 F0 "JP" -250 425 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_PINHD-1X6B" -250 -400 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_PINHD-1X6B-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -250 -400 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -420,11 +420,11 @@ X 6 6 -100 -200 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_PINHD-1X8BIG
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_PINHD-1X8BIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_PINHD-1X8BIG JP 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_PINHD-1X8BIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP 0 40 Y Y 1 L N
 F0 "JP" -250 425 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_PINHD-1X8BIG" -250 -600 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_PINHD-1X8BIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -250 -600 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -443,11 +443,11 @@ X 8 8 -100 -400 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_RESISTOR0805_NOOUTLINE
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_RESISTOR0805_NOOUTLINE R 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R 0 40 Y Y 1 L N
 F0 "R" 0 100 50 H V C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_RESISTOR0805_NOOUTLINE" 0 0 40 H V C CNB
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 0 0 40 H V C CNB
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -460,11 +460,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_RTC_PCF8523T
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_RTC_PCF8523T-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF ~Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_RTC_PCF8523T IC 0 40 Y Y 1 L N
+DEF ~Adafruit-SMT-Datalogger-Shield-rev-C-rescue_RTC_PCF8523T-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import IC 0 40 Y Y 1 L N
 F0 "IC" 400 300 59 H V R TNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_RTC_PCF8523T" 0 0 50 H I C CNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_RTC_PCF8523T-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -484,11 +484,11 @@ X VDD 8 600 100 200 L 50 50 1 0 W
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SDMMC06132
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SDMMC06132-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF ~Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SDMMC06132 ~ 0 40 Y Y 1 L N
+DEF ~Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SDMMC06132-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SDMMC06132" 0 0 50 H I C CNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SDMMC06132-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -514,11 +514,11 @@ X WRITE_PROTECT WP -500 600 100 R 50 50 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPER
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPER SJ 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ 0 40 Y Y 1 L N
 F0 "SJ" -100 100 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPER" -100 -150 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -150 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -531,11 +531,11 @@ X 2 2 200 0 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPERCLOSED
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPERCLOSED-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPERCLOSED SJ 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPERCLOSED-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ 0 40 Y Y 1 L N
 F0 "SJ" -100 100 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPERCLOSED" -100 -150 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPERCLOSED-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -150 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -548,11 +548,11 @@ X 2 2 200 0 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPER_2WAY
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPER_2WAY-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPER_2WAY SJ 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPER_2WAY-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ 0 40 Y Y 1 L N
 F0 "SJ" -200 -150 59 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SOLDERJUMPER_2WAY" -200 -250 59 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SOLDERJUMPER_2WAY-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -200 -250 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -568,11 +568,11 @@ X 3 3 100 0 0 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SWITCH_TACT_SMT_EVQQ2_SMALL
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SWITCH_TACT_SMT_EVQQ2_SMALL SW 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SW 0 40 Y Y 1 L N
 F0 "SW" -100 250 42 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_SWITCH_TACT_SMT_EVQQ2_SMALL" -100 -200 42 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -100 -200 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -596,11 +596,11 @@ X S1 B' 200 -100 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_VDDIO
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_VDDIO ~ 0 40 Y Y 1 L P
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import ~ 0 40 Y Y 1 L P
 F0 "" 0 0 50 H I C CNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_VDDIO" -60 40 42 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -60 40 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -610,11 +610,11 @@ X VDDIO 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_VREG_SOT23-5
+# Adafruit-SMT-Datalogger-Shield-rev-C-rescue_VREG_SOT23-5-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import
 #
-DEF Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_VREG_SOT23-5 U 0 40 Y Y 1 L N
+DEF Adafruit-SMT-Datalogger-Shield-rev-C-rescue_VREG_SOT23-5-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import U 0 40 Y Y 1 L N
 F0 "U" -300 240 42 H V L BNN
-F1 "Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import_VREG_SOT23-5" -300 -300 42 H V L BNN
+F1 "Adafruit-SMT-Datalogger-Shield-rev-C-rescue_VREG_SOT23-5-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import" -300 -300 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

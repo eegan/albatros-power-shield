@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Adafruit SMT Datalogger Shield rev C-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 11693 8881
@@ -403,7 +404,7 @@ Wire Wire Line
 	7300 1800 6800 1800
 Connection ~ 7300 1800
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SWITCH_TACT_SMT_EVQQ2_SMALL RESET1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import RESET1
 U 1 0 018A4D2F
 P 1700 1900
 F 0 "RESET1" H 1600 2150 42  0000 L BNN
@@ -414,7 +415,7 @@ F 3 "" H 1700 1900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+5V #P+01
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+01
 U 1 0 6A081B6E
 P 3200 5900
 F 0 "#P+01" H 3200 5900 50  0001 C CNN
@@ -425,7 +426,7 @@ F 3 "" H 3200 5900 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND01
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND01
 U 1 0 8DA2BB24
 P 3300 6000
 F 0 "#GND01" H 3300 6000 50  0001 C CNN
@@ -436,7 +437,7 @@ F 3 "" H 3300 6000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND02
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND02
 U 1 0 4877C9E2
 P 1800 2400
 F 0 "#GND02" H 1800 2400 50  0001 C CNN
@@ -447,7 +448,7 @@ F 3 "" H 1800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND08
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND08
 U 1 0 E3161DBF
 P 2600 7600
 F 0 "#GND08" H 2600 7600 50  0001 C CNN
@@ -458,7 +459,7 @@ F 3 "" H 2600 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:PINHD-1X8BIG JP4
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:PINHD-1X8BIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP4
 U 1 0 5EC42BB7
 P 3700 2800
 F 0 "JP4" H 3450 3325 59  0000 L BNN
@@ -469,7 +470,7 @@ F 3 "" H 3700 2800 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:PINHD-1X6B JP7
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:PINHD-1X6B-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP7
 U 1 0 ADC4B3B7
 P 3100 5600
 F 0 "JP7" H 3050 5275 59  0000 R TNN
@@ -480,7 +481,7 @@ F 3 "" H 3100 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:PINHD-1X6B JP9
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:PINHD-1X6B-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP9
 U 1 0 C8B46213
 P 3900 5600
 F 0 "JP9" H 3850 5275 59  0000 R TNN
@@ -491,7 +492,7 @@ F 3 "" H 3900 5600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+5V #P+02
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+02
 U 1 0 637B3A6A
 P 2600 6600
 F 0 "#P+02" H 2600 6600 50  0001 C CNN
@@ -502,7 +503,7 @@ F 3 "" H 2600 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND06
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND06
 U 1 0 F6847280
 P 3600 7600
 F 0 "#GND06" H 3600 7600 50  0001 C CNN
@@ -513,7 +514,7 @@ F 3 "" H 3600 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+3V3 #+3V01
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V01
 U 1 0 7D977A11
 P 3500 6600
 F 0 "#+3V01" H 3500 6600 50  0001 C CNN
@@ -524,7 +525,7 @@ F 3 "" H 3500 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:LETTER_L #FRAME1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LETTER_L-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #FRAME1
 U 1 0 CC96BE83
 P 1000 8000
 F 0 "#FRAME1" H 1000 8000 50  0001 C CNN
@@ -535,7 +536,7 @@ F 3 "" H 1000 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:LETTER_L #FRAME1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LETTER_L-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #FRAME1
 U 2 0 CC96BE8F
 P 6800 8000
 F 0 "#FRAME1" H 6800 8000 50  0001 C CNN
@@ -546,7 +547,7 @@ F 3 "" H 6800 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SDMMC06132 U$2
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SDMMC06132-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import U$2
 U 1 0 87B7DF34
 P 6900 4700
 F 0 "U$2" H 6900 4700 50  0001 C CNN
@@ -557,7 +558,7 @@ F 3 "" H 6900 4700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+3V3 #+3V04
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V04
 U 1 0 3511C8A8
 P 7800 4900
 F 0 "#+3V04" H 7800 4900 50  0001 C CNN
@@ -568,7 +569,7 @@ F 3 "" H 7800 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND012
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND012
 U 1 0 8C4C494A
 P 7700 5500
 F 0 "#GND012" H 7700 5500 50  0001 C CNN
@@ -579,7 +580,7 @@ F 3 "" H 7700 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND013
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND013
 U 1 0 85B66688
 P 7600 3900
 F 0 "#GND013" H 7600 3900 50  0001 C CNN
@@ -590,7 +591,7 @@ F 3 "" H 7600 3900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R5
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R5
 U 1 0 40871C63
 P 9600 4700
 F 0 "R5" H 9600 4800 50  0000 C CNN
@@ -601,7 +602,7 @@ F 3 "" H 9600 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R3
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R3
 U 1 0 299CF91A
 P 10400 2000
 F 0 "R3" H 10400 2100 50  0000 C CNN
@@ -612,7 +613,7 @@ F 3 "" H 10400 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND017
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND017
 U 1 0 CBB20165
 P 10400 2600
 F 0 "#GND017" H 10400 2600 50  0001 C CNN
@@ -623,7 +624,7 @@ F 3 "" H 10400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND020
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND020
 U 1 0 E53A484A
 P 10000 2600
 F 0 "#GND020" H 10000 2600 50  0001 C CNN
@@ -634,7 +635,7 @@ F 3 "" H 10000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R4
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R4
 U 1 0 330872C6
 P 10000 2000
 F 0 "R4" H 10000 2100 50  0000 C CNN
@@ -645,7 +646,7 @@ F 3 "" H 10000 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND05
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND05
 U 1 0 5B6A58CA
 P 5300 2500
 F 0 "#GND05" H 5300 2500 50  0001 C CNN
@@ -656,7 +657,7 @@ F 3 "" H 5300 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+3V3 #+3V05
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V05
 U 1 0 54464806
 P 8100 3600
 F 0 "#+3V05" H 8100 3600 50  0001 C CNN
@@ -667,7 +668,7 @@ F 3 "" H 8100 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R1
 U 1 0 DE04AF3C
 P 7800 2000
 F 0 "R1" H 7800 2100 50  0000 C CNN
@@ -678,7 +679,7 @@ F 3 "" H 7800 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R2
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R2
 U 1 0 0F3C4881
 P 8100 2000
 F 0 "R2" H 8100 2100 50  0000 C CNN
@@ -689,7 +690,7 @@ F 3 "" H 8100 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND07
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND07
 U 1 0 C2693486
 P 2400 2600
 F 0 "#GND07" H 2400 2600 50  0001 C CNN
@@ -700,7 +701,7 @@ F 3 "" H 2400 2600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:74HC4050D U2
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:74HC4050D-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import U2
 U 1 0 57048E5F
 P 8600 4600
 F 0 "U2" H 8300 5500 42  0000 L BNN
@@ -711,7 +712,7 @@ F 3 "" H 8600 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+3V3 #+3V08
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V08
 U 1 0 7BD3A1AE
 P 9400 3800
 F 0 "#+3V08" H 9400 3800 50  0001 C CNN
@@ -722,7 +723,7 @@ F 3 "" H 9400 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND09
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND09
 U 1 0 FD0A31A1
 P 9000 5600
 F 0 "#GND09" H 9000 5600 50  0001 C CNN
@@ -733,7 +734,7 @@ F 3 "" H 9000 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:LED0805_NOOUTLINE LED1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LED0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import LED1
 U 1 0 2DB1226F
 P 10000 2400
 F 0 "LED1" H 9950 2575 42  0000 C CNN
@@ -744,7 +745,7 @@ F 3 "" H 10000 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:LED0805_NOOUTLINE LED2
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LED0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import LED2
 U 1 0 C7EA1496
 P 10400 2400
 F 0 "LED2" H 10350 2575 42  0000 C CNN
@@ -755,7 +756,7 @@ F 3 "" H 10400 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:VREG_SOT23-5 U3
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VREG_SOT23-5-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import U3
 U 1 0 C0D38F7C
 P 3000 7200
 F 0 "U3" H 2700 7440 42  0000 L BNN
@@ -766,7 +767,7 @@ F 3 "" H 3000 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:BATTERYCR1220_SMT B1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:BATTERYCR1220_SMT-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import B1
 U 1 0 CD4D239B
 P 5300 2200
 F 0 "B1" H 5200 2325 42  0000 L BNN
@@ -777,7 +778,7 @@ F 3 "" H 5300 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND010
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND010
 U 1 0 0087CD10
 P 5600 2500
 F 0 "#GND010" H 5600 2500 50  0001 C CNN
@@ -788,7 +789,7 @@ F 3 "" H 5600 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:CRYSTAL8.0X3.8 Y1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CRYSTAL8.0X3.8-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import Y1
 U 1 0 7D89E2D8
 P 5300 1800
 F 0 "Y1" H 5200 2000 42  0000 L BNN
@@ -799,7 +800,7 @@ F 3 "" H 5300 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:1X4-CLEANBIG CN1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:1X4-CLEANBIG-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import CN1
 U 1 0 496D2C97
 P 8500 3400
 F 0 "CN1" H 8700 3700 50  0000 R TNN
@@ -810,7 +811,7 @@ F 3 "" H 8500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:LED0805_NOOUTLINE LED3
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LED0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import LED3
 U 1 0 B97CCF30
 P 10300 4700
 F 0 "LED3" H 10250 4875 42  0000 C CNN
@@ -821,7 +822,7 @@ F 3 "" H 10300 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R6
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R6
 U 1 0 9270C831
 P 9600 4500
 F 0 "R6" H 9600 4600 50  0000 C CNN
@@ -832,7 +833,7 @@ F 3 "" H 9600 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:LED0805_NOOUTLINE LED4
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LED0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import LED4
 U 1 0 7CB5BE3A
 P 9600 2400
 F 0 "LED4" H 9550 2575 42  0000 C CNN
@@ -843,7 +844,7 @@ F 3 "" H 9600 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R7
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R7
 U 1 0 6FED3E2F
 P 9600 2000
 F 0 "R7" H 9600 2100 50  0000 C CNN
@@ -854,7 +855,7 @@ F 3 "" H 9600 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+3V3 #+3V02
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V02
 U 1 0 816AD438
 P 9600 1200
 F 0 "#+3V02" H 9600 1200 50  0001 C CNN
@@ -865,7 +866,7 @@ F 3 "" H 9600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND04
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND04
 U 1 0 12C122FD
 P 9600 2600
 F 0 "#GND04" H 9600 2600 50  0001 C CNN
@@ -876,7 +877,7 @@ F 3 "" H 9600 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND011
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND011
 U 1 0 5518330F
 P 10300 4900
 F 0 "#GND011" H 10300 4900 50  0001 C CNN
@@ -887,7 +888,7 @@ F 3 "" H 10300 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:FIDUCIAL_1MM FID1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import FID1
 U 1 0 5EE76CA2
 P 9500 6800
 F 0 "FID1" H 9500 6800 50  0001 C CNN
@@ -898,7 +899,7 @@ F 3 "" H 9500 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:FIDUCIAL_1MM FID3
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import FID3
 U 1 0 CF99048F
 P 9700 6800
 F 0 "FID3" H 9700 6800 50  0001 C CNN
@@ -909,7 +910,7 @@ F 3 "" H 9700 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C5
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C5
 U 1 0 2BF069D8
 P 1600 7300
 F 0 "C5" V 1510 7349 50  0000 C CNN
@@ -920,7 +921,7 @@ F 3 "" H 1600 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C6
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C6
 U 1 0 CFDC1CA0
 P 2200 7300
 F 0 "C6" V 2110 7349 50  0000 C CNN
@@ -931,7 +932,7 @@ F 3 "" H 2200 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C7
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C7
 U 1 0 C15D389E
 P 3600 7300
 F 0 "C7" V 3510 7349 50  0000 C CNN
@@ -942,7 +943,7 @@ F 3 "" H 3600 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C8
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C8
 U 1 0 EC6A4D83
 P 4000 7300
 F 0 "C8" V 3910 7349 50  0000 C CNN
@@ -953,7 +954,7 @@ F 3 "" H 4000 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:ARDUINO_R3_ICSP_NODIM M1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:ARDUINO_R3_ICSP_NODIM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import M1
 U 1 0 37152884
 P 1900 5300
 F 0 "M1" H 1900 5300 50  0001 C CNN
@@ -964,7 +965,7 @@ F 3 "" H 1900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SOLDERJUMPER SJ1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ1
 U 1 0 666E743F
 P 3200 4600
 F 0 "SJ1" H 3100 4700 59  0000 L BNN
@@ -975,7 +976,7 @@ F 3 "" H 3200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SOLDERJUMPER SJ2
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ2
 U 1 0 2B525D20
 P 3200 4700
 F 0 "SJ2" H 3100 4800 59  0000 L BNN
@@ -986,7 +987,7 @@ F 3 "" H 3200 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:HEADER-1X1070MIL JP1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:HEADER-1X1070MIL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP1
 U 1 0 0B60073D
 P 2700 3000
 F 0 "JP1" H 2450 3525 59  0000 L BNN
@@ -997,7 +998,7 @@ F 3 "" H 2700 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND03
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND03
 U 1 0 21137572
 P 4300 4600
 F 0 "#GND03" H 4300 4600 50  0001 C CNN
@@ -1008,7 +1009,7 @@ F 3 "" H 4300 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+5V #P+03
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+03
 U 1 0 48C2C5DB
 P 4500 4000
 F 0 "#P+03" H 4500 4000 50  0001 C CNN
@@ -1019,7 +1020,7 @@ F 3 "" H 4500 4000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SOLDERJUMPER SJ3
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ3
 U 1 0 787D351D
 P 2600 2000
 F 0 "SJ3" H 2500 2100 59  0000 L BNN
@@ -1030,7 +1031,7 @@ F 3 "" H 2600 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SOLDERJUMPER SJ4
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ4
 U 1 0 CDD69D21
 P 2700 2000
 F 0 "SJ4" H 2600 2100 59  0000 L BNN
@@ -1041,7 +1042,7 @@ F 3 "" H 2700 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SOLDERJUMPER SJ5
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ5
 U 1 0 CF313447
 P 2800 2000
 F 0 "SJ5" H 2700 2100 59  0000 L BNN
@@ -1052,7 +1053,7 @@ F 3 "" H 2800 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RTC_PCF8523T IC1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RTC_PCF8523T-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import IC1
 U 1 0 B1711DD6
 P 6200 1900
 F 0 "IC1" H 6600 2200 59  0000 R TNN
@@ -1063,7 +1064,7 @@ F 3 "" H 6200 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SOLDERJUMPER_2WAY SJ7
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER_2WAY-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ7
 U 1 0 28557A2F
 P 8800 1700
 F 0 "SJ7" H 8600 1550 59  0000 L BNN
@@ -1074,7 +1075,7 @@ F 3 "" H 8800 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+3V3 #+3V03
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V03
 U 1 0 EB5F8C4A
 P 8700 1300
 F 0 "#+3V03" H 8700 1300 50  0001 C CNN
@@ -1085,7 +1086,7 @@ F 3 "" H 8700 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:+5V #P+04
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+04
 U 1 0 459FCD94
 P 8900 1300
 F 0 "#P+04" H 8900 1300 50  0001 C CNN
@@ -1096,7 +1097,7 @@ F 3 "" H 8900 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:SOLDERJUMPERCLOSED SJ6
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPERCLOSED-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ6
 U 1 0 E33B6F86
 P 2900 2000
 F 0 "SJ6" H 2800 2100 59  0000 L BNN
@@ -1107,7 +1108,7 @@ F 3 "" H 2900 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:HEADER-1X2ROUND JP2
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:HEADER-1X2ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP2
 U 1 0 BAFA783C
 P 10300 1300
 F 0 "JP2" H 10050 1525 59  0000 L BNN
@@ -1118,7 +1119,7 @@ F 3 "" H 10300 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:HEADER-1X1ROUND JP5
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:HEADER-1X1ROUND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import JP5
 U 1 0 056852D9
 P 9400 5000
 F 0 "JP5" H 9150 5125 59  0000 L BNN
@@ -1129,7 +1130,7 @@ F 3 "" H 9400 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:VDDIO #U$04
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #U$04
 U 1 0 649D799B
 P 8800 2200
 F 0 "#U$04" H 8800 2200 50  0001 C CNN
@@ -1140,7 +1141,7 @@ F 3 "" H 8800 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:VDDIO #U$07
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #U$07
 U 1 0 63C62AE7
 P 7800 1300
 F 0 "#U$07" H 7800 1300 50  0001 C CNN
@@ -1151,7 +1152,7 @@ F 3 "" H 7800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:VDDIO #U$08
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #U$08
 U 1 0 59F585D1
 P 9900 4600
 F 0 "#U$08" H 9900 4600 50  0001 C CNN
@@ -1162,7 +1163,7 @@ F 3 "" H 9900 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C1
 U 1 0 E7D47EA7
 P 7300 2100
 F 0 "C1" V 7210 2149 50  0000 C CNN
@@ -1173,7 +1174,7 @@ F 3 "" H 7300 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:RESISTOR0805_NOOUTLINE R8
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:RESISTOR0805_NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import R8
 U 1 0 B154411E
 P 7300 1600
 F 0 "R8" H 7300 1700 50  0000 C CNN
@@ -1184,7 +1185,7 @@ F 3 "" H 7300 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:VDDIO #U$09
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #U$09
 U 1 0 9E0009A5
 P 7300 1300
 F 0 "#U$09" H 7300 1300 50  0001 C CNN
@@ -1195,7 +1196,7 @@ F 3 "" H 7300 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:GND #GND014
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND014
 U 1 0 B9C9B342
 P 7300 2500
 F 0 "#GND014" H 7300 2500 50  0001 C CNN
@@ -1206,7 +1207,7 @@ F 3 "" H 7300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:VDDIO #U$06
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #U$06
 U 1 0 CE08125E
 P 2400 5600
 F 0 "#U$06" H 2400 5600 50  0001 C CNN
@@ -1217,7 +1218,7 @@ F 3 "" H 2400 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import:VDDIO #U$010
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #U$010
 U 1 0 2B263A79
 P 8100 1300
 F 0 "#U$010" H 8100 1300 50  0001 C CNN
