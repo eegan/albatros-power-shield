@@ -1265,4 +1265,8 @@ F 3 "" H 5450 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5550 1200 5775 1200
+Text Label 1800 2750 0    50   ~ 0
+SDA
+Text Label 1800 2925 0    50   ~ 0
+SCL
 $EndSCHEMATC
