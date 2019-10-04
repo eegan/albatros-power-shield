@@ -32,6 +32,7 @@ fp-info-cache
 # Gerber and flatcam files
 gerber/*
 flatcam/*
+Data-Logger-shield-master/*
 
 # Archive for sending
 *.zip
