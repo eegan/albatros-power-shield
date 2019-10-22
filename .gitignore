@@ -9,7 +9,8 @@
 *~
 _autosave-*
 *.tmp
-*-rescue.lib
+#including rescue helps when using a cloned repo
+#*-rescue.lib
 *-save.pro
 *-save.kicad_pcb
 _saved_*
