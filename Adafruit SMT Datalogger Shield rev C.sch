@@ -1269,4 +1269,15 @@ Text Label 1800 2750 0    50   ~ 0
 SDA
 Text Label 1800 2925 0    50   ~ 0
 SCL
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 5DB41A71
+P 5125 3300
+F 0 "J?" V 5052 3228 50  0000 C CNN
+F 1 "Conn_01x08_Male" V 4961 3228 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5125 3300 50  0001 C CNN
+F 3 "~" H 5125 3300 50  0001 C CNN
+	1    5125 3300
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
