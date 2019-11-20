@@ -1280,4 +1280,6 @@ F 3 "~" H 5125 3300 50  0001 C CNN
 	1    5125 3300
 	0    1    -1   0   
 $EndComp
+Text Notes 1375 825  0    50   ~ 0
+TODO\n\n* Look at http://wiki.dragino.com/index.php?title=Lora_Shield#Pin_Mapping_and_Unused_Pins to make compatible with LoRA shield.\n* Put pins for jumpering.\n* Add a couple more photomos switches\n* Add breakout for AREF, analog inputs.\n* Add breakout for all 3 (additional) serial ports\n* Add RS-485 interface (resistors) for one port
 $EndSCHEMATC
