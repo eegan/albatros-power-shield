@@ -15,69 +15,69 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3100 5900 3100 5500
-Text Label 3100 5900 0    10   ~ 0
+	2025 4875 2025 4475
+Text Label 2025 4875 0    10   ~ 0
 +5V
 Wire Wire Line
-	1475 7975 875  7975
+	5750 2475 5150 2475
 Wire Wire Line
-	1475 7975 1875 7975
+	5750 2475 6150 2475
 Wire Wire Line
-	1875 7975 1875 7575
+	6150 2475 6150 2075
 Wire Wire Line
-	1875 7975 1875 8075
-Connection ~ 1475 7975
-Connection ~ 1875 7975
-Text Label 1475 7975 0    10   ~ 0
+	6150 2475 6150 2575
+Connection ~ 5750 2475
+Connection ~ 6150 2475
+Text Label 5750 2475 0    10   ~ 0
 +5V
 Wire Wire Line
-	4300 4100 4500 4100
-Text Label 4300 4100 0    10   ~ 0
+	3225 3075 3425 3075
+Text Label 3225 3075 0    10   ~ 0
 +5V
 Wire Wire Line
 	9800 275  9800 575 
 Text Label 9800 275  0    10   ~ 0
 +5V
 Wire Wire Line
-	3200 5800 3300 5800
+	2125 4775 2225 4775
 Wire Wire Line
-	3300 5800 3300 5900
+	2225 4775 2225 4875
 Wire Wire Line
-	3200 5800 3200 5500
+	2125 4775 2125 4475
 Wire Wire Line
-	3300 5800 3300 5500
-Connection ~ 3300 5800
-Text Label 3200 5800 0    10   ~ 0
+	2225 4775 2225 4475
+Connection ~ 2225 4775
+Text Label 2125 4775 0    10   ~ 0
 GND
 Wire Wire Line
-	1700 2100 1800 2100
+	625  1075 725  1075
 Wire Wire Line
-	1800 2100 1800 2300
-Connection ~ 1800 2100
-Text Label 1700 2100 0    10   ~ 0
+	725  1075 725  1275
+Connection ~ 725  1075
+Text Label 625  1075 0    10   ~ 0
 GND
 Wire Wire Line
-	2875 8375 3275 8375
+	7150 2875 7550 2875
 Wire Wire Line
-	3275 8375 3275 8275
+	7550 2875 7550 2775
 Wire Wire Line
-	1875 8175 1875 8375
+	6150 2675 6150 2875
 Wire Wire Line
-	1875 8375 2875 8375
+	6150 2875 7150 2875
 Wire Wire Line
-	2875 8375 2875 8275
+	7150 2875 7150 2775
 Wire Wire Line
-	1475 8275 1475 8375
+	5750 2775 5750 2875
 Wire Wire Line
-	875  8275 875  8375
+	5150 2775 5150 2875
 Wire Wire Line
-	875  8375 1475 8375
+	5150 2875 5750 2875
 Wire Wire Line
-	1875 8375 1475 8375
-Connection ~ 2875 8375
-Connection ~ 1875 8375
-Connection ~ 1475 8375
-Text Label 2875 8375 0    10   ~ 0
+	6150 2875 5750 2875
+Connection ~ 7150 2875
+Connection ~ 6150 2875
+Connection ~ 5750 2875
+Text Label 7150 2875 0    10   ~ 0
 GND
 Wire Wire Line
 	8450 5475 8750 5475
@@ -97,7 +97,7 @@ Wire Wire Line
 	8650 4375 8450 4375
 Text Label 8650 4375 0    10   ~ 0
 GND
-Text Label 2500 2900 0    10   ~ 0
+Text Label 1425 1875 0    10   ~ 0
 GND
 Wire Wire Line
 	10050 5875 10050 5675
@@ -116,31 +116,31 @@ Wire Wire Line
 Text Label 10600 2750 0    10   ~ 0
 GND
 Wire Wire Line
-	2900 5500 2900 6200
-Text Label 2900 5800 3    70   ~ 0
+	1825 4475 1825 5175
+Text Label 1825 4775 3    70   ~ 0
 RESET
 Wire Wire Line
-	1700 1400 1700 1700
+	625  375  625  675 
 Wire Wire Line
-	1800 1700 1700 1700
-Connection ~ 1700 1700
-Text Label 1700 1400 3    70   ~ 0
+	725  675  625  675 
+Connection ~ 625  675 
+Text Label 625  375  3    70   ~ 0
 RESET
 Wire Wire Line
-	3900 4400 3600 4400
-Text Label 3600 4400 0    70   ~ 0
+	2825 3375 2525 3375
+Text Label 2525 3375 0    70   ~ 0
 RESET
 Wire Wire Line
-	3275 7975 2875 7975
+	7550 2475 7150 2475
 Wire Wire Line
-	2775 7975 2775 7575
+	7050 2475 7050 2075
 Wire Wire Line
-	2675 7975 2775 7975
+	6950 2475 7050 2475
 Wire Wire Line
-	2775 7975 2875 7975
-Connection ~ 2775 7975
-Connection ~ 2875 7975
-Text Label 3275 7975 0    10   ~ 0
+	7050 2475 7150 2475
+Connection ~ 7050 2475
+Connection ~ 7150 2475
+Text Label 7550 2475 0    10   ~ 0
 +3V3
 Wire Wire Line
 	8850 5375 8450 5375
@@ -167,36 +167,36 @@ Wire Wire Line
 Text Label 10050 4475 0    70   ~ 0
 MOSI
 Wire Wire Line
-	4300 4300 4800 4300
-Text Label 4500 4300 0    70   ~ 0
+	3225 3275 3725 3275
+Text Label 3425 3275 0    70   ~ 0
 MOSI
 Wire Wire Line
-	2800 1800 2800 1400
-Text Label 2800 1700 1    70   ~ 0
+	1725 775  1725 375 
+Text Label 1725 675  1    70   ~ 0
 MOSI
 Wire Wire Line
 	8450 4675 9050 4675
 Text Label 8650 4675 0    70   ~ 0
 MISO
 Wire Wire Line
-	3900 4000 3800 4000
-Text Label 3800 4000 0    70   ~ 0
+	2825 2975 2725 2975
+Text Label 2725 2975 0    70   ~ 0
 MISO
 Wire Wire Line
-	2700 1400 2700 1800
-Text Label 2700 1700 1    70   ~ 0
+	1625 375  1625 775 
+Text Label 1625 675  1    70   ~ 0
 MISO
 Wire Wire Line
 	10050 4875 10450 4875
 Text Label 10050 4875 0    70   ~ 0
 SCK
 Wire Wire Line
-	3900 4200 3800 4200
-Text Label 3800 4200 0    70   ~ 0
+	2825 3175 2725 3175
+Text Label 2725 3175 0    70   ~ 0
 SCK
 Wire Wire Line
-	2600 1800 2600 1400
-Text Label 2600 1700 1    70   ~ 0
+	1525 775  1525 375 
+Text Label 1525 675  1    70   ~ 0
 SCK
 Wire Wire Line
 	11300 575  11300 675 
@@ -224,8 +224,8 @@ Text Label 10050 5075 0    70   ~ 0
 SD_CS
 Connection ~ 10450 5075
 Wire Wire Line
-	2900 1800 2900 1400
-Text Label 2900 1700 1    70   ~ 0
+	1825 775  1825 375 
+Text Label 1825 675  1    70   ~ 0
 SD_CS
 Wire Wire Line
 	8450 4775 9150 4775
@@ -277,7 +277,7 @@ Wire Wire Line
 	11100 2750 11100 3150
 Text Label 11100 3150 1    70   ~ 0
 SCL
-Text Label 2200 3300 1    70   ~ 0
+Text Label 1125 2275 1    70   ~ 0
 SCL
 Wire Wire Line
 	10400 2550 10100 2550
@@ -287,19 +287,19 @@ Wire Wire Line
 	11400 2750 11400 3150
 Text Label 11400 3150 1    70   ~ 0
 SDA
-Text Label 2300 3300 1    70   ~ 0
+Text Label 1225 2275 1    70   ~ 0
 SDA
 Wire Wire Line
 	10400 2650 10100 2650
 Text Label 10200 2650 0    70   ~ 0
 SDA
-Text Label 2600 2300 3    70   ~ 0
+Text Label 1525 1275 3    70   ~ 0
 D13
-Text Label 2700 2300 3    70   ~ 0
+Text Label 1625 1275 3    70   ~ 0
 D12
-Text Label 2800 2300 3    70   ~ 0
+Text Label 1725 1275 3    70   ~ 0
 D11
-Text Label 2900 2500 1    70   ~ 0
+Text Label 1825 1475 1    70   ~ 0
 D10
 Wire Wire Line
 	9700 975  9700 675 
@@ -318,10 +318,10 @@ Wire Wire Line
 Text Label 10850 5075 0    10   ~ 0
 VDDIO
 Wire Wire Line
-	2400 5700 2800 5700
+	1325 4675 1725 4675
 Wire Wire Line
-	2800 5700 2800 5500
-Text Label 2400 5700 0    10   ~ 0
+	1725 4675 1725 4475
+Text Label 1325 4675 0    10   ~ 0
 VDDIO
 Wire Wire Line
 	10600 2450 10600 2350
@@ -331,100 +331,89 @@ Connection ~ 10600 2350
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import RESET1
 U 1 0 018A4D2F
-P 1700 1900
-F 0 "RESET1" H 1600 2150 42  0000 L BNN
-F 1 "Reset" H 1600 1700 42  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:EVQ-Q2_SMALLER" H 1700 1900 50  0001 C CNN
-F 3 "" H 1700 1900 50  0001 C CNN
-	1    1700 1900
+P 625 875
+F 0 "RESET1" H 525 1125 42  0000 L BNN
+F 1 "Reset" H 525 675 42  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:EVQ-Q2_SMALLER" H 625 875 50  0001 C CNN
+F 3 "" H 625 875 50  0001 C CNN
+	1    625  875 
 	0    -1   1    0   
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+01
 U 1 0 6A081B6E
-P 3200 5900
-F 0 "#P+01" H 3200 5900 50  0001 C CNN
-F 1 "+5V" V 3100 5700 59  0000 L BNN
-F 2 "" H 3200 5900 50  0001 C CNN
-F 3 "" H 3200 5900 50  0001 C CNN
-	1    3200 5900
+P 2125 4875
+F 0 "#P+01" H 2125 4875 50  0001 C CNN
+F 1 "+5V" V 2025 4675 59  0000 L BNN
+F 2 "" H 2125 4875 50  0001 C CNN
+F 3 "" H 2125 4875 50  0001 C CNN
+	1    2125 4875
 	0    1    -1   0   
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND01
 U 1 0 8DA2BB24
-P 3300 6000
-F 0 "#GND01" H 3300 6000 50  0001 C CNN
-F 1 "GND" H 3200 5900 59  0000 L BNN
-F 2 "" H 3300 6000 50  0001 C CNN
-F 3 "" H 3300 6000 50  0001 C CNN
-	1    3300 6000
+P 2225 4975
+F 0 "#GND01" H 2225 4975 50  0001 C CNN
+F 1 "GND" H 2125 4875 59  0000 L BNN
+F 2 "" H 2225 4975 50  0001 C CNN
+F 3 "" H 2225 4975 50  0001 C CNN
+	1    2225 4975
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND02
 U 1 0 4877C9E2
-P 1800 2400
-F 0 "#GND02" H 1800 2400 50  0001 C CNN
-F 1 "GND" H 1700 2300 59  0000 L BNN
-F 2 "" H 1800 2400 50  0001 C CNN
-F 3 "" H 1800 2400 50  0001 C CNN
-	1    1800 2400
+P 725 1375
+F 0 "#GND02" H 725 1375 50  0001 C CNN
+F 1 "GND" H 625 1275 59  0000 L BNN
+F 2 "" H 725 1375 50  0001 C CNN
+F 3 "" H 725 1375 50  0001 C CNN
+	1    725  1375
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND08
 U 1 0 E3161DBF
-P 1875 8475
-F 0 "#GND08" H 1875 8475 50  0001 C CNN
-F 1 "GND" H 1775 8375 59  0000 L BNN
-F 2 "" H 1875 8475 50  0001 C CNN
-F 3 "" H 1875 8475 50  0001 C CNN
-	1    1875 8475
+P 6150 2975
+F 0 "#GND08" H 6150 2975 50  0001 C CNN
+F 1 "GND" H 6050 2875 59  0000 L BNN
+F 2 "" H 6150 2975 50  0001 C CNN
+F 3 "" H 6150 2975 50  0001 C CNN
+	1    6150 2975
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+02
 U 1 0 637B3A6A
-P 1875 7475
-F 0 "#P+02" H 1875 7475 50  0001 C CNN
-F 1 "+5V" V 1775 7275 59  0000 L BNN
-F 2 "" H 1875 7475 50  0001 C CNN
-F 3 "" H 1875 7475 50  0001 C CNN
-	1    1875 7475
+P 6150 1975
+F 0 "#P+02" H 6150 1975 50  0001 C CNN
+F 1 "+5V" V 6050 1775 59  0000 L BNN
+F 2 "" H 6150 1975 50  0001 C CNN
+F 3 "" H 6150 1975 50  0001 C CNN
+	1    6150 1975
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND06
 U 1 0 F6847280
-P 2875 8475
-F 0 "#GND06" H 2875 8475 50  0001 C CNN
-F 1 "GND" H 2775 8375 59  0000 L BNN
-F 2 "" H 2875 8475 50  0001 C CNN
-F 3 "" H 2875 8475 50  0001 C CNN
-	1    2875 8475
+P 7150 2975
+F 0 "#GND06" H 7150 2975 50  0001 C CNN
+F 1 "GND" H 7050 2875 59  0000 L BNN
+F 2 "" H 7150 2975 50  0001 C CNN
+F 3 "" H 7150 2975 50  0001 C CNN
+	1    7150 2975
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+3V3-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #+3V01
 U 1 0 7D977A11
-P 2775 7475
-F 0 "#+3V01" H 2775 7475 50  0001 C CNN
-F 1 "+3V3" V 2675 7275 59  0000 L BNN
-F 2 "" H 2775 7475 50  0001 C CNN
-F 3 "" H 2775 7475 50  0001 C CNN
-	1    2775 7475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LETTER_L-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #FRAME1
-U 2 0 CC96BE8F
-P 6800 8000
-F 0 "#FRAME1" H 6800 8000 50  0001 C CNN
-F 1 "LETTER_L" H 6800 8000 50  0001 C CNN
-F 2 "" H 6800 8000 50  0001 C CNN
-F 3 "" H 6800 8000 50  0001 C CNN
-	2    6800 8000
+P 7050 1975
+F 0 "#+3V01" H 7050 1975 50  0001 C CNN
+F 1 "+3V3" V 6950 1775 59  0000 L BNN
+F 2 "" H 7050 1975 50  0001 C CNN
+F 3 "" H 7050 1975 50  0001 C CNN
+	1    7050 1975
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -573,12 +562,12 @@ $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND07
 U 1 0 C2693486
-P 2400 2600
-F 0 "#GND07" H 2400 2600 50  0001 C CNN
-F 1 "GND" H 2300 2500 59  0000 L BNN
-F 2 "" H 2400 2600 50  0001 C CNN
-F 3 "" H 2400 2600 50  0001 C CNN
-	1    2400 2600
+P 1325 1575
+F 0 "#GND07" H 1325 1575 50  0001 C CNN
+F 1 "GND" H 1225 1475 59  0000 L BNN
+F 2 "" H 1325 1575 50  0001 C CNN
+F 3 "" H 1325 1575 50  0001 C CNN
+	1    1325 1575
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -639,12 +628,12 @@ $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VREG_SOT23-5-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import U3
 U 1 0 C0D38F7C
-P 2275 8075
-F 0 "U3" H 1975 8315 42  0000 L BNN
-F 1 "MIC5225-3.3" H 1975 7775 42  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:SOT23-5" H 2275 8075 50  0001 C CNN
-F 3 "" H 2275 8075 50  0001 C CNN
-	1    2275 8075
+P 6550 2575
+F 0 "U3" H 6250 2815 42  0000 L BNN
+F 1 "MIC5225-3.3" H 6250 2275 42  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:SOT23-5" H 6550 2575 50  0001 C CNN
+F 3 "" H 6550 2575 50  0001 C CNN
+	1    6550 2575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -769,135 +758,113 @@ F 3 "" H 11350 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import FID1
-U 1 0 5EE76CA2
-P 9500 6800
-F 0 "FID1" H 9500 6800 50  0001 C CNN
-F 1 "FIDUCIAL_1MM" H 9500 6800 50  0001 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:FIDUCIAL_1MM" H 9500 6800 50  0001 C CNN
-F 3 "" H 9500 6800 50  0001 C CNN
-	1    9500 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import FID3
-U 1 0 CF99048F
-P 9700 6800
-F 0 "FID3" H 9700 6800 50  0001 C CNN
-F 1 "FIDUCIAL_1MM" H 9700 6800 50  0001 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:FIDUCIAL_1MM" H 9700 6800 50  0001 C CNN
-F 3 "" H 9700 6800 50  0001 C CNN
-	1    9700 6800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C5
 U 1 0 2BF069D8
-P 875 8175
-F 0 "C5" V 785 8224 50  0000 C CNN
-F 1 "0.1uF" V 965 8224 50  0000 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 875 8175 50  0001 C CNN
-F 3 "" H 875 8175 50  0001 C CNN
-	1    875  8175
+P 5150 2675
+F 0 "C5" V 5060 2724 50  0000 C CNN
+F 1 "0.1uF" V 5240 2724 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 5150 2675 50  0001 C CNN
+F 3 "" H 5150 2675 50  0001 C CNN
+	1    5150 2675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C6
 U 1 0 CFDC1CA0
-P 1475 8175
-F 0 "C6" V 1385 8224 50  0000 C CNN
-F 1 "10uF" V 1565 8224 50  0000 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 1475 8175 50  0001 C CNN
-F 3 "" H 1475 8175 50  0001 C CNN
-	1    1475 8175
+P 5750 2675
+F 0 "C6" V 5660 2724 50  0000 C CNN
+F 1 "10uF" V 5840 2724 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 5750 2675 50  0001 C CNN
+F 3 "" H 5750 2675 50  0001 C CNN
+	1    5750 2675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C7
 U 1 0 C15D389E
-P 2875 8175
-F 0 "C7" V 2785 8224 50  0000 C CNN
-F 1 "0.1uF" V 2965 8224 50  0000 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 2875 8175 50  0001 C CNN
-F 3 "" H 2875 8175 50  0001 C CNN
-	1    2875 8175
+P 7150 2675
+F 0 "C7" V 7060 2724 50  0000 C CNN
+F 1 "0.1uF" V 7240 2724 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 7150 2675 50  0001 C CNN
+F 3 "" H 7150 2675 50  0001 C CNN
+	1    7150 2675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import C8
 U 1 0 EC6A4D83
-P 3275 8175
-F 0 "C8" V 3185 8224 50  0000 C CNN
-F 1 "10uF" V 3365 8224 50  0000 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 3275 8175 50  0001 C CNN
-F 3 "" H 3275 8175 50  0001 C CNN
-	1    3275 8175
+P 7550 2675
+F 0 "C8" V 7460 2724 50  0000 C CNN
+F 1 "10uF" V 7640 2724 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" H 7550 2675 50  0001 C CNN
+F 3 "" H 7550 2675 50  0001 C CNN
+	1    7550 2675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ1
 U 1 0 666E743F
-P 2625 6800
-F 0 "SJ1" H 2525 6900 59  0000 L BNN
-F 1 "SOLDERJUMPER" H 2525 6650 59  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 2625 6800 50  0001 C CNN
-F 3 "" H 2625 6800 50  0001 C CNN
-	1    2625 6800
+P 1550 5775
+F 0 "SJ1" H 1450 5875 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 1450 5625 59  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 1550 5775 50  0001 C CNN
+F 3 "" H 1550 5775 50  0001 C CNN
+	1    1550 5775
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND03
 U 1 0 21137572
-P 4300 4600
-F 0 "#GND03" H 4300 4600 50  0001 C CNN
-F 1 "GND" H 4200 4500 59  0000 L BNN
-F 2 "" H 4300 4600 50  0001 C CNN
-F 3 "" H 4300 4600 50  0001 C CNN
-	1    4300 4600
+P 3225 3575
+F 0 "#GND03" H 3225 3575 50  0001 C CNN
+F 1 "GND" H 3125 3475 59  0000 L BNN
+F 2 "" H 3225 3575 50  0001 C CNN
+F 3 "" H 3225 3575 50  0001 C CNN
+	1    3225 3575
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+03
 U 1 0 48C2C5DB
-P 4500 4000
-F 0 "#P+03" H 4500 4000 50  0001 C CNN
-F 1 "+5V" V 4400 3800 59  0000 L BNN
-F 2 "" H 4500 4000 50  0001 C CNN
-F 3 "" H 4500 4000 50  0001 C CNN
-	1    4500 4000
+P 3425 2975
+F 0 "#P+03" H 3425 2975 50  0001 C CNN
+F 1 "+5V" V 3325 2775 59  0000 L BNN
+F 2 "" H 3425 2975 50  0001 C CNN
+F 3 "" H 3425 2975 50  0001 C CNN
+	1    3425 2975
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ3
 U 1 0 787D351D
-P 2600 2000
-F 0 "SJ3" H 2500 2100 59  0000 L BNN
-F 1 "SOLDERJUMPER" H 2500 1850 59  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 2600 2000 50  0001 C CNN
-F 3 "" H 2600 2000 50  0001 C CNN
-	1    2600 2000
+P 1525 975
+F 0 "SJ3" H 1425 1075 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 1425 825 59  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 1525 975 50  0001 C CNN
+F 3 "" H 1525 975 50  0001 C CNN
+	1    1525 975 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ4
 U 1 0 CDD69D21
-P 2700 2000
-F 0 "SJ4" H 2600 2100 59  0000 L BNN
-F 1 "SOLDERJUMPER" H 2600 1850 59  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 2700 2000 50  0001 C CNN
-F 3 "" H 2700 2000 50  0001 C CNN
-	1    2700 2000
+P 1625 975
+F 0 "SJ4" H 1525 1075 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 1525 825 59  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 1625 975 50  0001 C CNN
+F 3 "" H 1625 975 50  0001 C CNN
+	1    1625 975 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ5
 U 1 0 CF313447
-P 2800 2000
-F 0 "SJ5" H 2700 2100 59  0000 L BNN
-F 1 "SOLDERJUMPER" H 2700 1850 59  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 2800 2000 50  0001 C CNN
-F 3 "" H 2800 2000 50  0001 C CNN
-	1    2800 2000
+P 1725 975
+F 0 "SJ5" H 1625 1075 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 1625 825 59  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 1725 975 50  0001 C CNN
+F 3 "" H 1725 975 50  0001 C CNN
+	1    1725 975 
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -947,12 +914,12 @@ $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPERCLOSED-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ6
 U 1 0 E33B6F86
-P 2900 2000
-F 0 "SJ6" H 2800 2100 59  0000 L BNN
-F 1 "SOLDERJUMPERCLOSED" H 2800 1850 59  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_CLOSEDWIRE" H 2900 2000 50  0001 C CNN
-F 3 "" H 2900 2000 50  0001 C CNN
-	1    2900 2000
+P 1825 975
+F 0 "SJ6" H 1725 1075 59  0000 L BNN
+F 1 "SOLDERJUMPERCLOSED" H 1725 825 59  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_CLOSEDWIRE" H 1825 975 50  0001 C CNN
+F 3 "" H 1825 975 50  0001 C CNN
+	1    1825 975 
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1057,12 +1024,12 @@ $EndComp
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:VDDIO-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #U$06
 U 1 0 CE08125E
-P 2400 5600
-F 0 "#U$06" H 2400 5600 50  0001 C CNN
-F 1 "VDDIO" H 2340 5640 42  0000 L BNN
-F 2 "" H 2400 5600 50  0001 C CNN
-F 3 "" H 2400 5600 50  0001 C CNN
-	1    2400 5600
+P 1325 4575
+F 0 "#U$06" H 1325 4575 50  0001 C CNN
+F 1 "VDDIO" H 1265 4615 42  0000 L BNN
+F 2 "" H 1325 4575 50  0001 C CNN
+F 3 "" H 1325 4575 50  0001 C CNN
+	1    1325 4575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1076,210 +1043,245 @@ F 3 "" H 11400 1850 50  0001 C CNN
 	1    11400 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 7400 7700 0    85   ~ 0
-http://www.ladyada.net/make/logshield
-Text Notes 6900 7000 0    85   ~ 0
-Released under CC 2.5, Attrib/Share-Alike
-Text Notes 6900 6800 0    85   ~ 0
-Logger shield for Arduino
 $Comp
 L Relay_SolidState:TLP3543 U1
 U 1 1 5D9B784C
-P 4950 2225
-F 0 "U1" H 4950 2550 50  0000 C CNN
-F 1 "TLP3543" H 4950 2459 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 4950 1925 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12660&prodName=TLP3543" H 4950 2225 50  0001 C CNN
-	1    4950 2225
+P 3875 1200
+F 0 "U1" H 3875 1525 50  0000 C CNN
+F 1 "TLP3543" H 3875 1434 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 3875 900 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12660&prodName=TLP3543" H 3875 1200 50  0001 C CNN
+	1    3875 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R9
 U 1 1 5D9B97FE
-P 4300 2125
-F 0 "R9" V 4095 2125 50  0000 C CNN
-F 1 "390" V 4186 2125 50  0000 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 4340 2115 50  0001 C CNN
-F 3 "~" H 4300 2125 50  0001 C CNN
-	1    4300 2125
+P 3225 1100
+F 0 "R9" V 3020 1100 50  0000 C CNN
+F 1 "390" V 3111 1100 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 3265 1090 50  0001 C CNN
+F 3 "~" H 3225 1100 50  0001 C CNN
+	1    3225 1100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5250 2125 5450 2125
+	4175 1100 4375 1100
 Wire Wire Line
-	5450 2125 5450 2325
+	4375 1100 4375 1300
 Wire Wire Line
-	5450 2325 5250 2325
+	4375 1300 4175 1300
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5D9D68BF
-P 5975 2125
-F 0 "J2" H 6055 2117 50  0000 L CNN
-F 1 "Conn_01x02" H 6055 2026 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5975 2125 50  0001 C CNN
-F 3 "~" H 5975 2125 50  0001 C CNN
-	1    5975 2125
+P 4900 1100
+F 0 "J2" H 4980 1092 50  0000 L CNN
+F 1 "Conn_01x02" H 4980 1001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 1100 50  0001 C CNN
+F 3 "~" H 4900 1100 50  0001 C CNN
+	1    4900 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5775 2125 5450 2125
-Connection ~ 5450 2125
+	4700 1100 4375 1100
+Connection ~ 4375 1100
 Wire Wire Line
-	5250 2225 5775 2225
+	4175 1200 4700 1200
 Wire Wire Line
-	4450 2125 4650 2125
+	3375 1100 3575 1100
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND015
 U 1 0 5DA0D87E
-P 4375 2475
-F 0 "#GND015" H 4375 2475 50  0001 C CNN
-F 1 "GND" H 4275 2375 59  0000 L BNN
-F 2 "" H 4375 2475 50  0001 C CNN
-F 3 "" H 4375 2475 50  0001 C CNN
-	1    4375 2475
+P 3300 1450
+F 0 "#GND015" H 3300 1450 50  0001 C CNN
+F 1 "GND" H 3200 1350 59  0000 L BNN
+F 2 "" H 3300 1450 50  0001 C CNN
+F 3 "" H 3300 1450 50  0001 C CNN
+	1    3300 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4375 2375 4375 2325
+	3300 1350 3300 1300
 Wire Wire Line
-	4375 2325 4650 2325
+	3300 1300 3575 1300
 Text Notes 12400 3250 0    50   ~ 0
 TODO:\n\nGet rid of extra ICSP connector on Arduino FP; 5V routing is ripped up\n\nCheck SDA/SDL on Arduino symbol (we rerouted it). For some reason the netname isn't agreeing but at least SDA seems connected.
-Text Label 3600 2125 0    50   ~ 0
+Text Label 2525 1100 0    50   ~ 0
 LOAD_ON
 Wire Wire Line
-	2500 2600 2500 3100
+	1425 1575 1425 2075
 Wire Wire Line
-	2600 2200 2600 3100
+	1525 1175 1525 2075
 Wire Wire Line
-	2700 2200 2700 3100
+	1625 1175 1625 2075
 Wire Wire Line
-	2800 2200 2800 3100
+	1725 1175 1725 2075
 Wire Wire Line
-	2900 2200 2900 3100
+	1825 1175 1825 2075
 Wire Wire Line
-	2200 2925 1600 2925
+	1125 1900 525  1900
 Wire Wire Line
-	2825 6375 4100 6375
+	1750 5350 3025 5350
 Wire Wire Line
-	4100 6375 4100 5500
+	3025 5350 3025 4475
 Wire Wire Line
-	1600 6375 2425 6375
+	525  5350 1350 5350
 Wire Wire Line
-	1600 2925 1600 6375
+	525  1900 525  5350
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:SOLDERJUMPER-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import SJ2
 U 1 0 2B525D20
-P 2625 6375
-F 0 "SJ2" H 2525 6475 59  0000 L BNN
-F 1 "SOLDERJUMPER" H 2525 6225 59  0000 L BNN
-F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 2625 6375 50  0001 C CNN
-F 3 "" H 2625 6375 50  0001 C CNN
-	1    2625 6375
+P 1550 5350
+F 0 "SJ2" H 1450 5450 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 1450 5200 59  0000 L BNN
+F 2 "Adafruit SMT Datalogger Shield rev C:SOLDERJUMPER_ARROW_NOPASTE" H 1550 5350 50  0001 C CNN
+F 3 "" H 1550 5350 50  0001 C CNN
+	1    1550 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 5500 4000 6800
+	2925 4475 2925 5775
 Wire Wire Line
-	4000 6800 2825 6800
+	2925 5775 1750 5775
 Wire Wire Line
-	1450 6800 1450 2750
+	375  5775 375  1725
 Wire Wire Line
-	1450 2750 2300 2750
+	375  1725 1225 1725
 Wire Wire Line
-	2200 2925 2200 3100
+	1125 1900 1125 2075
 Wire Wire Line
-	2300 2750 2300 3100
+	1225 1725 1225 2075
 Wire Wire Line
-	2425 6800 1450 6800
+	1350 5775 375  5775
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:ARDUINO_R3_ICSP_NODIM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import M1
 U 1 0 37152884
-P 1900 5300
-F 0 "M1" H 1900 5300 50  0001 C CNN
-F 1 "ARDUINO_R3_ICSP_NODIM" H 1900 5300 50  0001 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:ARDUINOR3_ICSP_NODIM" H 1900 5300 50  0001 C CNN
-F 3 "" H 1900 5300 50  0001 C CNN
-	1    1900 5300
+P 825 4275
+F 0 "M1" H 825 4275 50  0001 C CNN
+F 1 "ARDUINO_R3_ICSP_NODIM" H 825 4275 50  0001 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:ARDUINOR3_ICSP_NODIM" H 825 4275 50  0001 C CNN
+F 3 "" H 825 4275 50  0001 C CNN
+	1    825  4275
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2125 3500 3100
+	2425 1100 2425 2075
 Wire Wire Line
-	3500 2125 4150 2125
+	2425 1100 3075 1100
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 5DAD4412
-P 5975 1300
-F 0 "J1" H 6055 1342 50  0000 L CNN
-F 1 "Conn_01x03" H 6055 1251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5975 1300 50  0001 C CNN
-F 3 "~" H 5975 1300 50  0001 C CNN
-	1    5975 1300
+P 4900 275
+F 0 "J1" H 4980 317 50  0000 L CNN
+F 1 "Conn_01x03" H 4980 226 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4900 275 50  0001 C CNN
+F 3 "~" H 4900 275 50  0001 C CNN
+	1    4900 275 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R10
 U 1 1 5DAE4351
-P 4825 1300
-F 0 "R10" V 4620 1300 50  0000 C CNN
-F 1 "1k" V 4711 1300 50  0000 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 4865 1290 50  0001 C CNN
-F 3 "~" H 4825 1300 50  0001 C CNN
-	1    4825 1300
+P 3750 275
+F 0 "R10" V 3545 275 50  0000 C CNN
+F 1 "1k" V 3636 275 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 3790 265 50  0001 C CNN
+F 3 "~" H 3750 275 50  0001 C CNN
+	1    3750 275 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R11
 U 1 1 5DAE4B08
-P 5300 1400
-F 0 "R11" V 5400 1275 50  0000 C CNN
-F 1 "1k" V 5400 1475 50  0000 C CNN
-F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 5340 1390 50  0001 C CNN
-F 3 "~" H 5300 1400 50  0001 C CNN
-	1    5300 1400
+P 4225 375
+F 0 "R11" V 4325 250 50  0000 C CNN
+F 1 "1k" V 4325 450 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 4265 365 50  0001 C CNN
+F 3 "~" H 4225 375 50  0001 C CNN
+	1    4225 375 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5450 1400 5775 1400
+	4375 375  4700 375 
 Wire Wire Line
-	4975 1300 5775 1300
+	3900 275  4700 275 
 Wire Wire Line
-	5150 1400 3400 1400
+	4075 375  2325 375 
 Wire Wire Line
-	3400 1400 3400 3100
+	2325 375  2325 2075
 Wire Wire Line
-	3300 3100 3300 1300
+	2225 2075 2225 275 
 Wire Wire Line
-	3300 1300 4675 1300
+	2225 275  3600 275 
 $Comp
 L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND016
 U 1 0 5DAFA014
-P 5450 1200
-F 0 "#GND016" H 5450 1200 50  0001 C CNN
-F 1 "GND" H 5350 1100 59  0000 L BNN
-F 2 "" H 5450 1200 50  0001 C CNN
-F 3 "" H 5450 1200 50  0001 C CNN
-	1    5450 1200
+P 4375 175
+F 0 "#GND016" H 4375 175 50  0001 C CNN
+F 1 "GND" H 4275 75  59  0000 L BNN
+F 2 "" H 4375 175 50  0001 C CNN
+F 3 "" H 4375 175 50  0001 C CNN
+	1    4375 175 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5550 1200 5775 1200
-Text Label 1800 2750 0    50   ~ 0
+	4475 175  4700 175 
+Text Label 725  1725 0    50   ~ 0
 SDA
-Text Label 1800 2925 0    50   ~ 0
+Text Label 725  1900 0    50   ~ 0
 SCL
 $Comp
 L Connector:Conn_01x08_Male J?
 U 1 1 5DB41A71
-P 5125 3300
-F 0 "J?" V 5052 3228 50  0000 C CNN
-F 1 "Conn_01x08_Male" V 4961 3228 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5125 3300 50  0001 C CNN
-F 3 "~" H 5125 3300 50  0001 C CNN
-	1    5125 3300
+P 4050 2275
+F 0 "J?" V 3977 2203 50  0000 C CNN
+F 1 "Conn_01x08_Male" V 3886 2203 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4050 2275 50  0001 C CNN
+F 3 "~" H 4050 2275 50  0001 C CNN
+	1    4050 2275
 	0    1    -1   0   
 $EndComp
-Text Notes 1375 825  0    50   ~ 0
-TODO\n\n* Look at http://wiki.dragino.com/index.php?title=Lora_Shield#Pin_Mapping_and_Unused_Pins to make compatible with LoRA shield.\n* Put pins for jumpering.\n* Add a couple more photomos switches\n* Add breakout for AREF, analog inputs.\n* Add breakout for all 3 (additional) serial ports\n* Add RS-485 interface (resistors) for one port
+Text Notes 7025 7175 0    50   ~ 0
+(Earlier) TODO\n\n* Look at \nhttp://wiki.dragino.com/index.php?title=Lora_Shield#Pin_Mapping_and_Unused_Pins to make compatible with LoRA shield.\n* Put pins for jumpering.\n* Add a couple more photomos switches\n* Add breakout for AREF, analog inputs.\n* Add breakout for all 3 (additional) serial ports\n* Add RS-485 interface (resistors) for one port
+Text Notes 7775 7650 0    85   ~ 0
+Logger shield for Arduino
+Text Notes 7775 7850 0    85   ~ 0
+Released under CC 2.5, Attrib/Share-Alike
+Text Notes 8275 8550 0    85   ~ 0
+http://www.ladyada.net/make/logshield
+$Comp
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import FID3
+U 1 0 CF99048F
+P 10575 7650
+F 0 "FID3" H 10575 7650 50  0001 C CNN
+F 1 "FIDUCIAL_1MM" H 10575 7650 50  0001 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:FIDUCIAL_1MM" H 10575 7650 50  0001 C CNN
+F 3 "" H 10575 7650 50  0001 C CNN
+	1    10575 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:FIDUCIAL_1MM-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import FID1
+U 1 0 5EE76CA2
+P 10375 7650
+F 0 "FID1" H 10375 7650 50  0001 C CNN
+F 1 "FIDUCIAL_1MM" H 10375 7650 50  0001 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:FIDUCIAL_1MM" H 10375 7650 50  0001 C CNN
+F 3 "" H 10375 7650 50  0001 C CNN
+	1    10375 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:LETTER_L-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #FRAME1
+U 2 0 CC96BE8F
+P 7675 8850
+F 0 "#FRAME1" H 7675 8850 50  0001 C CNN
+F 1 "LETTER_L" H 7675 8850 50  0001 C CNN
+F 2 "" H 7675 8850 50  0001 C CNN
+F 3 "" H 7675 8850 50  0001 C CNN
+	2    7675 8850
+	1    0    0    -1  
+$EndComp
+Text Notes 425  8375 0    100  ~ 0
+To add:\n\nAnalog A3-0 connections: goal is to measure 2 currents and 2 voltages\nPossible other analog inputs (single ended?)\nCheck how I2C works, now (is A4/A5 used? does it need to be?)\nNote, differential inputs with programmable gain are ADC3-0 (A3-A0), ADC11-9\nCheck https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/\nNote 0.55V default analog reference on MEGA??\nVoltage dividers should be provided.\n\nSwitches: add 1 to 3 more of them, off of D4-D2.\n\nSerial input: support all 4 ports. One RS-232 interface (optional)
 $EndSCHEMATC
