@@ -218,11 +218,8 @@ Wire Wire Line
 	8900 2350 8800 2250
 Wire Wire Line
 	10450 5075 10050 5075
-Wire Wire Line
-	10450 5475 10450 5075
 Text Label 10050 5075 0    70   ~ 0
 SD_CS
-Connection ~ 10450 5075
 Wire Wire Line
 	1825 775  1825 375 
 Text Label 1825 675  1    70   ~ 0
@@ -277,8 +274,6 @@ Wire Wire Line
 	11100 2750 11100 3150
 Text Label 11100 3150 1    70   ~ 0
 SCL
-Text Label 1125 2275 1    70   ~ 0
-SCL
 Wire Wire Line
 	10400 2550 10100 2550
 Text Label 10200 2550 0    70   ~ 0
@@ -286,8 +281,6 @@ SCL
 Wire Wire Line
 	11400 2750 11400 3150
 Text Label 11400 3150 1    70   ~ 0
-SDA
-Text Label 1225 2275 1    70   ~ 0
 SDA
 Wire Wire Line
 	10400 2650 10100 2650
@@ -1148,8 +1141,6 @@ Wire Wire Line
 Wire Wire Line
 	375  1725 1225 1725
 Wire Wire Line
-	1125 1900 1125 2075
-Wire Wire Line
 	1225 1725 1225 2075
 Wire Wire Line
 	1350 5775 375  5775
@@ -1231,10 +1222,10 @@ SDA
 Text Label 725  1900 0    50   ~ 0
 SCL
 $Comp
-L Connector:Conn_01x08_Male J?
+L Connector:Conn_01x08_Male J3
 U 1 1 5DB41A71
 P 4050 2275
-F 0 "J?" V 3977 2203 50  0000 C CNN
+F 0 "J3" V 3977 2203 50  0000 C CNN
 F 1 "Conn_01x08_Male" V 3886 2203 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4050 2275 50  0001 C CNN
 F 3 "~" H 4050 2275 50  0001 C CNN
@@ -1282,6 +1273,210 @@ F 3 "" H 7675 8850 50  0001 C CNN
 	2    7675 8850
 	1    0    0    -1  
 $EndComp
-Text Notes 425  8375 0    100  ~ 0
-To add:\n\nAnalog A3-0 connections: goal is to measure 2 currents and 2 voltages\nPossible other analog inputs (single ended?)\nCheck how I2C works, now (is A4/A5 used? does it need to be?)\nNote, differential inputs with programmable gain are ADC3-0 (A3-A0), ADC11-9\nCheck https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/\nNote 0.55V default analog reference on MEGA??\nVoltage dividers should be provided.\n\nSwitches: add 1 to 3 more of them, off of D4-D2.\n\nSerial input: support all 4 ports. One RS-232 interface (optional)
+Text Notes 200  10950 0    100  ~ 0
+To add:\n\nAnalog A3-0 connections: goal is to measure 2 currents and 2 voltages\nPossible other analog inputs (single ended?)\nCheck how I2C works, now (is A4/A5 used? does it need to be?)\nNote, differential inputs with programmable gain are ADC3-0 (A3-A0), ADC11-9\nCheck https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/\nNote 0.55V default analog reference on MEGA??\nVoltage dividers should be provided.\n\nSwitches: add 1 to 3 more of them, off of D4-D2.\n\nFix the I2C option we are using, eliminating the jumper. Remove the other option\n\nSerial input: support all 4 ports. One RS-232 interface (optional)\n\nAnemometer (RS-485)
+Wire Wire Line
+	1125 1900 1125 2075
+$Comp
+L Amplifier_Current:INA138 U4
+U 1 1 5E4FDC56
+P 2075 6600
+F 0 "U4" H 2419 6646 50  0000 L CNN
+F 1 "INA138" H 2419 6555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2075 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina138.pdf" H 2075 6605 50  0001 C CNN
+	1    2075 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 5E5034DB
+P 1400 7050
+F 0 "R12" V 1195 7050 50  0000 C CNN
+F 1 "390" V 1286 7050 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 1440 7040 50  0001 C CNN
+F 3 "~" H 1400 7050 50  0001 C CNN
+	1    1400 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R13
+U 1 1 5E504CFD
+P 1400 7425
+F 0 "R13" V 1195 7425 50  0000 C CNN
+F 1 "390" V 1286 7425 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 1440 7415 50  0001 C CNN
+F 3 "~" H 1400 7425 50  0001 C CNN
+	1    1400 7425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1775 6700 1400 6700
+Wire Wire Line
+	1400 7625 1400 7575
+Wire Wire Line
+	1400 6900 1400 6700
+Wire Wire Line
+	1400 7275 1400 7250
+Connection ~ 1400 6700
+Wire Wire Line
+	1775 6500 700  6500
+Connection ~ 1400 7250
+Wire Wire Line
+	1400 7250 1400 7200
+Wire Wire Line
+	2375 6600 2825 6600
+$Comp
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND0101
+U 1 0 5E52B76B
+P 1400 7725
+F 0 "#GND0101" H 1400 7725 50  0001 C CNN
+F 1 "GND" H 1300 7625 59  0000 L BNN
+F 2 "" H 1400 7725 50  0001 C CNN
+F 3 "" H 1400 7725 50  0001 C CNN
+	1    1400 7725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND0102
+U 1 0 5E531A73
+P 1975 7125
+F 0 "#GND0102" H 1975 7125 50  0001 C CNN
+F 1 "GND" H 1875 7025 59  0000 L BNN
+F 2 "" H 1975 7125 50  0001 C CNN
+F 3 "" H 1975 7125 50  0001 C CNN
+	1    1975 7125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:+5V-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #P+0101
+U 1 0 5E531E46
+P 1975 6200
+F 0 "#P+0101" H 1975 6200 50  0001 C CNN
+F 1 "+5V" V 1875 6000 59  0000 L BNN
+F 2 "" H 1975 6200 50  0001 C CNN
+F 3 "" H 1975 6200 50  0001 C CNN
+	1    1975 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 5E53295F
+P 2825 6800
+F 0 "R14" V 2620 6800 50  0000 C CNN
+F 1 "390" V 2711 6800 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 2865 6790 50  0001 C CNN
+F 3 "~" H 2825 6800 50  0001 C CNN
+	1    2825 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1975 6900 1975 6975
+Wire Wire Line
+	1975 6975 2825 6975
+Wire Wire Line
+	2825 6975 2825 6950
+Connection ~ 1975 6975
+Wire Wire Line
+	1975 6975 1975 7025
+Wire Wire Line
+	2825 6650 2825 6600
+Connection ~ 2825 6600
+Wire Wire Line
+	2825 6600 3175 6600
+Wire Wire Line
+	2525 4475 2525 4850
+Wire Wire Line
+	2525 4850 3175 4850
+Wire Wire Line
+	3175 4850 3175 6600
+Wire Wire Line
+	2625 4475 2625 4725
+Wire Wire Line
+	2625 4725 3400 4725
+Wire Wire Line
+	3400 4725 3400 7250
+Wire Wire Line
+	1400 7250 3400 7250
+Wire Wire Line
+	1400 6700 1400 6600
+Wire Wire Line
+	1400 6600 700  6600
+$Comp
+L Interface_UART:MAX232 U?
+U 1 1 5E575E85
+P 5550 6550
+F 0 "U?" H 5550 7931 50  0000 C CNN
+F 1 "MAX232" H 5550 7840 50  0000 C CNN
+F 2 "" H 5600 5500 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 5550 6650 50  0001 C CNN
+	1    5550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5E578D13
+P 500 6600
+F 0 "J?" H 580 6642 50  0000 L CNN
+F 1 "Conn_01x03" H 580 6551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 500 6600 50  0001 C CNN
+F 3 "~" H 500 6600 50  0001 C CNN
+	1    500  6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E585731
+P 825 7675
+F 0 "R?" V 620 7675 50  0000 C CNN
+F 1 "390" V 711 7675 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 865 7665 50  0001 C CNN
+F 3 "~" H 825 7675 50  0001 C CNN
+	1    825  7675
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E585737
+P 825 8050
+F 0 "R?" V 620 8050 50  0000 C CNN
+F 1 "390" V 711 8050 50  0000 C CNN
+F 2 "Adafruit SMT Datalogger Shield rev C:0805-NO" V 865 8040 50  0001 C CNN
+F 3 "~" H 825 8050 50  0001 C CNN
+	1    825  8050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	825  8250 825  8200
+$Comp
+L Adafruit-SMT-Datalogger-Shield-rev-C-rescue:GND-Adafruit_SMT_Datalogger_Shield_rev_C-eagle-import #GND?
+U 1 0 5E585742
+P 825 8350
+F 0 "#GND?" H 825 8350 50  0001 C CNN
+F 1 "GND" H 725 8250 59  0000 L BNN
+F 2 "" H 825 8350 50  0001 C CNN
+F 3 "" H 825 8350 50  0001 C CNN
+	1    825  8350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	825  7825 825  7900
+Wire Wire Line
+	700  6700 825  6700
+Wire Wire Line
+	825  6700 825  7525
+Wire Wire Line
+	825  7900 3625 7900
+Wire Wire Line
+	3625 7900 3625 4575
+Wire Wire Line
+	3625 4575 2725 4575
+Wire Wire Line
+	2725 4575 2725 4475
+Connection ~ 825  7900
+Text Notes -575 7150 0    50   ~ 0
+Shunt 1-2\nV1 2\nV2 3\nFor monitoring a 24V battery
+Connection ~ 10450 5075
+Wire Wire Line
+	10450 5475 10450 5075
 $EndSCHEMATC
