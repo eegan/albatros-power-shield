@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:albatros_arduino_shield-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -150,6 +151,10 @@ F 0 "J8" H 7280 3892 50  0000 L CNN
 F 1 "Conn_01x02" H 7280 3801 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 7200 3900 50  0001 C CNN
 F 3 "~" H 7200 3900 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
+F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    7200 3900
 	1    0    0    -1  
 $EndComp
@@ -172,6 +177,10 @@ F 0 "J9" H 7280 5392 50  0000 L CNN
 F 1 "Conn_01x02" H 7280 5301 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 7200 5400 50  0001 C CNN
 F 3 "~" H 7200 5400 50  0001 C CNN
+F 4 "Molex" H 7200 5400 50  0001 C CNN "MFN"
+F 5 "AE-6410-02A" H 7200 5400 50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    7200 5400
 	1    0    0    -1  
 $EndComp
@@ -194,6 +203,10 @@ F 0 "J7" H 7280 2392 50  0000 L CNN
 F 1 "Conn_01x02" H 7280 2301 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 7200 2400 50  0001 C CNN
 F 3 "~" H 7200 2400 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
+F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    7200 2400
 	1    0    0    -1  
 $EndComp
@@ -208,4 +221,6 @@ Wire Wire Line
 Connection ~ 6750 2400
 Wire Wire Line
 	6600 2500 7000 2500
+Text Notes 4350 1450 0    50   ~ 0
+Max current on datasheet is 4A for "A Connection"\n\nWe are using "C Connection" with 1/2 the voltage drop,\nsince both MOSFETs are in parallel. \n\nTherefore we may be able to switch up to 8A.
 $EndSCHEMATC

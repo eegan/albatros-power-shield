@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:albatros_arduino_shield-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -204,10 +205,6 @@ Wire Wire Line
 Connection ~ 5450 2500
 Wire Wire Line
 	6350 1900 6600 1900
-Wire Wire Line
-	6600 2500 6350 2500
-Wire Wire Line
-	6350 2600 6600 2600
 Wire Wire Line
 	6450 2700 6450 2000
 Wire Wire Line
@@ -549,6 +546,10 @@ F 0 "J11" H 2630 4292 50  0000 L CNN
 F 1 "Conn_01x02" H 2630 4201 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2550 4300 50  0001 C CNN
 F 3 "~" H 2550 4300 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
+F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    2550 4300
 	1    0    0    -1  
 $EndComp

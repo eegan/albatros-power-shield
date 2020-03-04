@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:albatros_arduino_shield-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,7 +28,7 @@ F 3 "~" H 5500 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Timer_RTC:PCF8523T U?
+L albatros_arduino_shield-rescue:PCF8523T-Timer_RTC U?
 U 1 1 5E693DC6
 P 5900 3800
 AR Path="/5E693DC6" Ref="U?"  Part="1" 
@@ -120,7 +121,11 @@ AR Path="/5E69055C/5E693E01" Ref="BT1"  Part="1"
 F 0 "BT1" V 6605 3150 50  0000 C CNN
 F 1 "Battery_Cell" V 6514 3150 50  0000 C CNN
 F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 6350 3160 50  0001 C CNN
-F 3 "~" V 6350 3160 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p9.pdf" V 6350 3160 50  0001 C CNN
+F 4 "Keystone" H 6350 3100 50  0001 C CNN "MFN"
+F 5 "3000" H 6350 3100 50  0001 C CNN "MPN"
+F 6 "DK" H 6350 3100 50  0001 C CNN "VN"
+F 7 "36-3000-ND" H 6350 3100 50  0001 C CNN "VPN"
 	1    6350 3100
 	0    -1   -1   0   
 $EndComp
@@ -157,4 +162,6 @@ F 3 "" H 5800 2900 50  0001 C CNN
 	1    5800 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 6950 3325 0    50   ~ 0
+Keystone 3000: 12mm  diam., CR1216\n
 $EndSCHEMATC

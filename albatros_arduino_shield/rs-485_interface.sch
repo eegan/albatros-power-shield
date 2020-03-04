@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:albatros_arduino_shield-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -159,6 +160,10 @@ F 0 "J5" H 5530 3192 50  0000 L CNN
 F 1 "Conn_01x02" H 5530 3101 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5450 3200 50  0001 C CNN
 F 3 "~" H 5450 3200 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
+F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    5450 3200
 	1    0    0    -1  
 $EndComp
@@ -182,6 +187,10 @@ F 0 "J6" H 9030 3192 50  0000 L CNN
 F 1 "Conn_01x02" H 9030 3101 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8950 3200 50  0001 C CNN
 F 3 "~" H 8950 3200 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
+F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    8950 3200
 	1    0    0    -1  
 $EndComp

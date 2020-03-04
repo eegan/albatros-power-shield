@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name albatros_arduino_shield-rescue)(type Legacy)(uri ${KIPRJMOD}/albatros_arduino_shield-rescue.lib)(options "")(descr ""))
+)
