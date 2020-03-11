@@ -21,9 +21,10 @@ P 5500 3100
 AR Path="/5E693DC0" Ref="C?"  Part="1" 
 AR Path="/5E69055C/5E693DC0" Ref="C1"  Part="1" 
 F 0 "C1" V 5248 3100 50  0000 C CNN
-F 1 "C" V 5339 3100 50  0000 C CNN
+F 1 "1uF" V 5339 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5538 2950 50  0001 C CNN
 F 3 "~" H 5500 3100 50  0001 C CNN
+F 4 "399-8004-1-ND" H 0   0   50  0001 C CNN "MPN"
 	1    5500 3100
 	0    1    1    0   
 $EndComp
