@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:albatros_arduino_shield-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,7 +23,10 @@ F 0 "C1" V 5248 3100 50  0000 C CNN
 F 1 "1uF" V 5339 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5538 2950 50  0001 C CNN
 F 3 "~" H 5500 3100 50  0001 C CNN
-F 4 "399-8004-1-ND" H 0   0   50  0001 C CNN "MPN"
+F 4 "C0805C105K3RACTU" H 0   0   50  0001 C CNN "MPN"
+F 5 "KEMET" H 5500 3100 50  0001 C CNN "MFN"
+F 6 "Digikey Electronics" H 5500 3100 50  0001 C CNN "VN"
+F 7 "399-8004-1-ND" H 5500 3100 50  0001 C CNN "VPN"
 	1    5500 3100
 	0    1    1    0   
 $EndComp
@@ -38,6 +40,10 @@ F 0 "U1" H 6150 3450 50  0000 L CNN
 F 1 "PCF8523T" H 6150 3350 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6700 3450 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf" H 5900 3800 50  0001 C CNN
+F 4 "Digikey Electronics" H 5900 3800 50  0001 C CNN "VN"
+F 5 "NXP USA Inc." H 5900 3800 50  0001 C CNN "MFN"
+F 6 "PCF8523T/1,118" H 5900 3800 50  0001 C CNN "MPN"
+F 7 "568-5306-1-ND" H 5900 3800 50  0001 C CNN "VPN"
 	1    5900 3800
 	1    0    0    -1  
 $EndComp
@@ -123,9 +129,9 @@ F 0 "BT1" V 6605 3150 50  0000 C CNN
 F 1 "Battery_Cell" V 6514 3150 50  0000 C CNN
 F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 6350 3160 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p9.pdf" V 6350 3160 50  0001 C CNN
-F 4 "Keystone" H 6350 3100 50  0001 C CNN "MFN"
+F 4 "Keystone Electronics" H 6350 3100 50  0001 C CNN "MFN"
 F 5 "3000" H 6350 3100 50  0001 C CNN "MPN"
-F 6 "DK" H 6350 3100 50  0001 C CNN "VN"
+F 6 "Digikey Electronics" H 6350 3100 50  0001 C CNN "VN"
 F 7 "36-3000-ND" H 6350 3100 50  0001 C CNN "VPN"
 	1    6350 3100
 	0    -1   -1   0   
@@ -147,6 +153,10 @@ F 0 "Y1" V 4896 3956 50  0000 R CNN
 F 1 "Crystal_GND23" V 4805 3956 50  0000 R CNN
 F 2 "Crystal:Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm" H 4850 4200 50  0001 C CNN
 F 3 "~" H 4850 4200 50  0001 C CNN
+F 4 "Digikey Electronics" H 4850 4200 50  0001 C CNN "VN"
+F 5 "300-8855-1-ND" H 4850 4200 50  0001 C CNN "VPN"
+F 6 "Citizen Finedevice Co Ltd" H 4850 4200 50  0001 C CNN "MFN"
+F 7 "CM200C32768DZYT" H 4850 4200 50  0001 C CNN "MPN"
 	1    4850 4200
 	0    -1   -1   0   
 $EndComp

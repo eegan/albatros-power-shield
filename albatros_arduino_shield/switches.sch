@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:albatros_arduino_shield-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +21,10 @@ F 0 "U5" H 6300 2825 50  0000 C CNN
 F 1 "TLP3543" H 6300 2734 50  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm" H 6300 2200 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12660&prodName=TLP3543" H 6300 2500 50  0001 C CNN
+F 4 "Digikey Electronics" H 6300 2500 50  0001 C CNN "VN"
+F 5 "Toshiba Semiconductor and Storage" H 6300 2500 50  0001 C CNN "MFN"
+F 6 "TLP3543(F)" H 6300 2500 50  0001 C CNN "MPN"
+F 7 "TLP3543(F)-ND" H 6300 2500 50  0001 C CNN "VPN"
 	1    6300 2500
 	1    0    0    -1  
 $EndComp
@@ -33,6 +36,10 @@ F 0 "U6" H 6300 4325 50  0000 C CNN
 F 1 "TLP3543" H 6300 4234 50  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm" H 6300 3700 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12660&prodName=TLP3543" H 6300 4000 50  0001 C CNN
+F 4 "Digikey Electronics" H 6300 4000 50  0001 C CNN "VN"
+F 5 "Toshiba Semiconductor and Storage" H 6300 4000 50  0001 C CNN "MFN"
+F 6 "TLP3543(F)" H 6300 4000 50  0001 C CNN "MPN"
+F 7 "TLP3543(F)-ND" H 6300 4000 50  0001 C CNN "VPN"
 	1    6300 4000
 	1    0    0    -1  
 $EndComp
@@ -44,6 +51,10 @@ F 0 "U7" H 6300 5825 50  0000 C CNN
 F 1 "TLP3543" H 6300 5734 50  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm" H 6300 5200 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12660&prodName=TLP3543" H 6300 5500 50  0001 C CNN
+F 4 "Digikey Electronics" H 6300 5500 50  0001 C CNN "VN"
+F 5 "Toshiba Semiconductor and Storage" H 6300 5500 50  0001 C CNN "MFN"
+F 6 "TLP3543(F)" H 6300 5500 50  0001 C CNN "MPN"
+F 7 "TLP3543(F)-ND" H 6300 5500 50  0001 C CNN "VPN"
 	1    6300 5500
 	1    0    0    -1  
 $EndComp
@@ -71,9 +82,13 @@ L Device:R_US R17
 U 1 1 5E77DC53
 P 5350 2400
 F 0 "R17" V 5145 2400 50  0000 C CNN
-F 1 "R_US" V 5236 2400 50  0000 C CNN
+F 1 "390" V 5236 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5390 2390 50  0001 C CNN
 F 3 "~" H 5350 2400 50  0001 C CNN
+F 4 "Digikey Electronics" H 5350 2400 50  0001 C CNN "VN"
+F 5 "KOA Speer Electronics, Inc." H 5350 2400 50  0001 C CNN "MFN"
+F 6 "RK73H2ATTD3900F" H 5350 2400 50  0001 C CNN "MPN"
+F 7 "2019-RK73H2ATTD3900FCT-ND" H 5350 2400 50  0001 C CNN "VPN"
 	1    5350 2400
 	0    1    1    0   
 $EndComp
@@ -103,9 +118,13 @@ L Device:R_US R18
 U 1 1 5E780A6D
 P 5350 3900
 F 0 "R18" V 5145 3900 50  0000 C CNN
-F 1 "R_US" V 5236 3900 50  0000 C CNN
+F 1 "390" V 5236 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5390 3890 50  0001 C CNN
 F 3 "~" H 5350 3900 50  0001 C CNN
+F 4 "Digikey Electronics" H 5350 3900 50  0001 C CNN "VN"
+F 5 "KOA Speer Electronics, Inc." H 5350 3900 50  0001 C CNN "MFN"
+F 6 "RK73H2ATTD3900F" H 5350 3900 50  0001 C CNN "MPN"
+F 7 "2019-RK73H2ATTD3900FCT-ND" H 5350 3900 50  0001 C CNN "VPN"
 	1    5350 3900
 	0    1    1    0   
 $EndComp
@@ -135,9 +154,13 @@ L Device:R_US R19
 U 1 1 5E781DD0
 P 5350 5400
 F 0 "R19" V 5145 5400 50  0000 C CNN
-F 1 "R_US" V 5236 5400 50  0000 C CNN
+F 1 "390" V 5236 5400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5390 5390 50  0001 C CNN
 F 3 "~" H 5350 5400 50  0001 C CNN
+F 4 "Digikey Electronics" H 5350 5400 50  0001 C CNN "VN"
+F 5 "KOA Speer Electronics, Inc." H 5350 5400 50  0001 C CNN "MFN"
+F 6 "RK73H2ATTD3900F" H 5350 5400 50  0001 C CNN "MPN"
+F 7 "2019-RK73H2ATTD3900FCT-ND" H 5350 5400 50  0001 C CNN "VPN"
 	1    5350 5400
 	0    1    1    0   
 $EndComp
@@ -153,7 +176,7 @@ F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 7200 3900
 F 3 "~" H 7200 3900 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
 F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 6 "Digikey Electronics" H 0   0   50  0001 C CNN "VN"
 F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    7200 3900
 	1    0    0    -1  
@@ -179,7 +202,7 @@ F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 7200 5400
 F 3 "~" H 7200 5400 50  0001 C CNN
 F 4 "Molex" H 7200 5400 50  0001 C CNN "MFN"
 F 5 "AE-6410-02A" H 7200 5400 50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 6 "Digikey Electronics" H 0   0   50  0001 C CNN "VN"
 F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    7200 5400
 	1    0    0    -1  
@@ -205,7 +228,7 @@ F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 7200 2400
 F 3 "~" H 7200 2400 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
 F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 6 "Digikey Electronics" H 0   0   50  0001 C CNN "VN"
 F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    7200 2400
 	1    0    0    -1  

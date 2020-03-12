@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:albatros_arduino_shield-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,6 +29,10 @@ F 0 "U8" H 5530 1996 50  0000 L CNN
 F 1 "4050" H 5530 1905 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5300 1950 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 5300 1950 50  0001 C CNN
+F 4 "Digikey Electronics" H 5300 1950 50  0001 C CNN "VN"
+F 5 "Texas Instruments" H 5300 1950 50  0001 C CNN "MFN"
+F 6 "CD74HC4050M96" H 5300 1950 50  0001 C CNN "MPN"
+F 7 "296-14529-1-ND" H 5300 1950 50  0001 C CNN "VPN"
 	7    5300 1950
 	1    0    0    -1  
 $EndComp
@@ -41,6 +44,10 @@ F 0 "J10" H 7500 4415 50  0000 C CNN
 F 1 "SD_Card" H 7500 4324 50  0000 C CNN
 F 2 "Connector_Card:SD_TE_2041021" H 7500 3750 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 7500 3750 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 7500 3750 50  0001 C CNN "MFN"
+F 5 "2041021-3" H 7500 3750 50  0001 C CNN "MPN"
+F 6 "Digikey Electronics" H 7500 3750 50  0001 C CNN "VN"
+F 7 "A130907-ND" H 7500 3750 50  0001 C CNN "VPN"
 	1    7500 3750
 	1    0    0    -1  
 $EndComp
@@ -146,6 +153,7 @@ F 3 "~" H 5500 5350 50  0001 C CNN
 F 4 "Liteon" H 0   0   50  0001 C CNN "MFN"
 F 5 "LTST-C171GKT" H 0   0   50  0001 C CNN "MPN"
 F 6 "160-1423-1-ND" H 0   0   50  0001 C CNN "VPN"
+F 7 "Digikey Electronics" H 5500 5350 50  0001 C CNN "VN"
 	1    5500 5350
 	-1   0    0    1   
 $EndComp
@@ -154,9 +162,13 @@ L Device:R_US R1
 U 1 1 5E640365
 P 5000 5350
 F 0 "R1" V 4795 5350 50  0000 C CNN
-F 1 "R_US" V 4886 5350 50  0000 C CNN
+F 1 "100" V 4886 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5040 5340 50  0001 C CNN
 F 3 "~" H 5000 5350 50  0001 C CNN
+F 4 "Digikey Electronics" H 5000 5350 50  0001 C CNN "VN"
+F 5 "TE Connectivity Passive Product" H 5000 5350 50  0001 C CNN "MFN"
+F 6 "CRGCQ0805F100R" H 5000 5350 50  0001 C CNN "MPN"
+F 7 "A129737CT-ND" H 5000 5350 50  0001 C CNN "VPN"
 	1    5000 5350
 	0    1    1    0   
 $EndComp
@@ -192,6 +204,10 @@ F 0 "U8" H 5300 3767 50  0000 C CNN
 F 1 "4050" H 5300 3676 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5300 3450 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 5300 3450 50  0001 C CNN
+F 4 "Digikey Electronics" H 5300 3450 50  0001 C CNN "VN"
+F 5 "Texas Instruments" H 5300 3450 50  0001 C CNN "MFN"
+F 6 "CD74HC4050M96" H 5300 3450 50  0001 C CNN "MPN"
+F 7 "296-14529-1-ND" H 5300 3450 50  0001 C CNN "VPN"
 	6    5300 3450
 	1    0    0    -1  
 $EndComp
@@ -203,6 +219,10 @@ F 0 "U8" H 5300 4267 50  0000 C CNN
 F 1 "4050" H 5300 4176 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5300 3950 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 5300 3950 50  0001 C CNN
+F 4 "Digikey Electronics" H 5300 3950 50  0001 C CNN "VN"
+F 5 "Texas Instruments" H 5300 3950 50  0001 C CNN "MFN"
+F 6 "CD74HC4050M96" H 5300 3950 50  0001 C CNN "MPN"
+F 7 "296-14529-1-ND" H 5300 3950 50  0001 C CNN "VPN"
 	5    5300 3950
 	1    0    0    -1  
 $EndComp
@@ -214,6 +234,10 @@ F 0 "U8" H 5300 4767 50  0000 C CNN
 F 1 "4050" H 5300 4676 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5300 4450 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 5300 4450 50  0001 C CNN
+F 4 "Digikey Electronics" H 5300 4450 50  0001 C CNN "VN"
+F 5 "Texas Instruments" H 5300 4450 50  0001 C CNN "MFN"
+F 6 "CD74HC4050M96" H 5300 4450 50  0001 C CNN "MPN"
+F 7 "296-14529-1-ND" H 5300 4450 50  0001 C CNN "VPN"
 	4    5300 4450
 	1    0    0    -1  
 $EndComp
@@ -239,7 +263,10 @@ F 0 "C11" H 6190 2046 50  0000 L CNN
 F 1 "1uF" H 6190 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6113 1850 50  0001 C CNN
 F 3 "~" H 6075 2000 50  0001 C CNN
-F 4 "399-8004-1-ND" H 0   0   50  0001 C CNN "MPN"
+F 4 "C0805C105K3RACTU" H 0   0   50  0001 C CNN "MPN"
+F 5 "KEMET" H 6075 2000 50  0001 C CNN "MFN"
+F 6 "Digikey Electronics" H 6075 2000 50  0001 C CNN "VN"
+F 7 "399-8004-1-ND" H 6075 2000 50  0001 C CNN "VPN"
 	1    6075 2000
 	1    0    0    -1  
 $EndComp
@@ -251,7 +278,10 @@ F 0 "C12" H 6740 2046 50  0000 L CNN
 F 1 "1uF" H 6740 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6663 1850 50  0001 C CNN
 F 3 "~" H 6625 2000 50  0001 C CNN
-F 4 "399-8004-1-ND" H 0   0   50  0001 C CNN "MPN"
+F 4 "C0805C105K3RACTU" H 0   0   50  0001 C CNN "MPN"
+F 5 "KEMET" H 6625 2000 50  0001 C CNN "MFN"
+F 6 "Digikey Electronics" H 6625 2000 50  0001 C CNN "VN"
+F 7 "399-8004-1-ND" H 6625 2000 50  0001 C CNN "VPN"
 	1    6625 2000
 	1    0    0    -1  
 $EndComp

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:albatros_arduino_shield-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -34,9 +33,13 @@ P 3500 4750
 AR Path="/5E69FCB2" Ref="R?"  Part="1" 
 AR Path="/5E69BAD3/5E69FCB2" Ref="R5"  Part="1" 
 F 0 "R5" H 3568 4796 50  0000 L CNN
-F 1 "R_US" H 3568 4705 50  0000 L CNN
+F 1 "20K" H 3568 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3540 4740 50  0001 C CNN
 F 3 "~" H 3500 4750 50  0001 C CNN
+F 4 "Digikey Electronics" H 3500 4750 50  0001 C CNN "VN"
+F 5 "TE Connectivity Passive Product" H 3500 4750 50  0001 C CNN "MFN"
+F 6 "CRG0805F20K" H 3500 4750 50  0001 C CNN "MPN"
+F 7 "A126349CT-ND" H 3500 4750 50  0001 C CNN "VPN"
 	1    3500 4750
 	1    0    0    -1  
 $EndComp
@@ -47,9 +50,13 @@ P 3500 5350
 AR Path="/5E69FCB8" Ref="R?"  Part="1" 
 AR Path="/5E69BAD3/5E69FCB8" Ref="R6"  Part="1" 
 F 0 "R6" H 3568 5396 50  0000 L CNN
-F 1 "R_US" H 3568 5305 50  0000 L CNN
+F 1 "10K" H 3568 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3540 5340 50  0001 C CNN
 F 3 "~" H 3500 5350 50  0001 C CNN
+F 4 "Digikey Electronics" H 3500 5350 50  0001 C CNN "VN"
+F 5 "TE Connectivity Passive Product" H 3500 5350 50  0001 C CNN "MFN"
+F 6 "CRGH0805F10K" H 3500 5350 50  0001 C CNN "MPN"
+F 7 "A126417CT-ND" H 3500 5350 50  0001 C CNN "VPN"
 	1    3500 5350
 	1    0    0    -1  
 $EndComp
@@ -86,6 +93,7 @@ F 3 "~" H 3200 2800 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
 F 5 "AE-6410-03A" H 0   0   50  0001 C CNN "MPN"
 F 6 "WM4112-ND" H 0   0   50  0001 C CNN "VPN"
+F 7 "Digikey Electronics" H 3200 2800 50  0001 C CNN "VN"
 	1    3200 2800
 	-1   0    0    -1  
 $EndComp
@@ -160,9 +168,13 @@ P 3750 3800
 AR Path="/5E69FC87" Ref="R?"  Part="1" 
 AR Path="/5E69BAD3/5E69FC87" Ref="R8"  Part="1" 
 F 0 "R8" H 3818 3846 50  0000 L CNN
-F 1 "R_US" H 3818 3755 50  0000 L CNN
+F 1 "10K" H 3818 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3790 3790 50  0001 C CNN
 F 3 "~" H 3750 3800 50  0001 C CNN
+F 4 "Digikey Electronics" H 3750 3800 50  0001 C CNN "VN"
+F 5 "TE Connectivity Passive Product" H 3750 3800 50  0001 C CNN "MFN"
+F 6 "CRGH0805F10K" H 3750 3800 50  0001 C CNN "MPN"
+F 7 "A126417CT-ND" H 3750 3800 50  0001 C CNN "VPN"
 	1    3750 3800
 	1    0    0    -1  
 $EndComp
@@ -173,9 +185,13 @@ P 3750 3200
 AR Path="/5E69FC81" Ref="R?"  Part="1" 
 AR Path="/5E69BAD3/5E69FC81" Ref="R7"  Part="1" 
 F 0 "R7" H 3818 3246 50  0000 L CNN
-F 1 "R_US" H 3818 3155 50  0000 L CNN
+F 1 "51K" H 3818 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3790 3190 50  0001 C CNN
 F 3 "~" H 3750 3200 50  0001 C CNN
+F 4 "Digikey Electronics" H 3750 3200 50  0001 C CNN "VN"
+F 5 "TE Connectivity Passive Product" H 3750 3200 50  0001 C CNN "MFN"
+F 6 "CRG0805F51K" H 3750 3200 50  0001 C CNN "MPN"
+F 7 "A126373CT-ND" H 3750 3200 50  0001 C CNN "VPN"
 	1    3750 3200
 	1    0    0    -1  
 $EndComp
@@ -189,6 +205,10 @@ F 0 "U2" H 4500 3100 50  0000 L CNN
 F 1 "INA138" H 4500 3000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4500 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina138.pdf" H 4500 2755 50  0001 C CNN
+F 4 "Digikey Electronics" H 4500 2750 50  0001 C CNN "VN"
+F 5 "Texas Instruments" H 4500 2750 50  0001 C CNN "MFN"
+F 6 "INA138NA/3K" H 4500 2750 50  0001 C CNN "MPN"
+F 7 "296-17936-1-ND" H 4500 2750 50  0001 C CNN "VPN"
 	1    4500 2750
 	1    0    0    -1  
 $EndComp
@@ -202,6 +222,10 @@ F 0 "U3" H 7650 3100 50  0000 L CNN
 F 1 "INA138" H 7650 3000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7650 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina138.pdf" H 7650 2755 50  0001 C CNN
+F 4 "Digikey Electronics" H 7650 2750 50  0001 C CNN "VN"
+F 5 "Texas Instruments" H 7650 2750 50  0001 C CNN "MFN"
+F 6 "INA138NA/3K" H 7650 2750 50  0001 C CNN "MPN"
+F 7 "296-17936-1-ND" H 7650 2750 50  0001 C CNN "VPN"
 	1    7650 2750
 	1    0    0    -1  
 $EndComp
@@ -212,9 +236,13 @@ P 6900 3200
 AR Path="/5E6A64EB" Ref="R?"  Part="1" 
 AR Path="/5E69BAD3/5E6A64EB" Ref="R9"  Part="1" 
 F 0 "R9" H 6968 3246 50  0000 L CNN
-F 1 "R_US" H 6968 3155 50  0000 L CNN
+F 1 "51K" H 6968 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6940 3190 50  0001 C CNN
 F 3 "~" H 6900 3200 50  0001 C CNN
+F 4 "Digikey Electronics" H 6900 3200 50  0001 C CNN "VN"
+F 5 "TE Connectivity Passive Product" H 6900 3200 50  0001 C CNN "MFN"
+F 6 "CRG0805F51K" H 6900 3200 50  0001 C CNN "MPN"
+F 7 "A126373CT-ND" H 6900 3200 50  0001 C CNN "VPN"
 	1    6900 3200
 	1    0    0    -1  
 $EndComp
@@ -225,9 +253,13 @@ P 6900 3800
 AR Path="/5E6A64F1" Ref="R?"  Part="1" 
 AR Path="/5E69BAD3/5E6A64F1" Ref="R10"  Part="1" 
 F 0 "R10" H 6968 3846 50  0000 L CNN
-F 1 "R_US" H 6968 3755 50  0000 L CNN
+F 1 "10K" H 6968 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6940 3790 50  0001 C CNN
 F 3 "~" H 6900 3800 50  0001 C CNN
+F 4 "Digikey Electronics" H 6900 3800 50  0001 C CNN "VN"
+F 5 "TE Connectivity Passive Product" H 6900 3800 50  0001 C CNN "MFN"
+F 6 "CRGH0805F10K" H 6900 3800 50  0001 C CNN "MPN"
+F 7 "A126417CT-ND" H 6900 3800 50  0001 C CNN "VPN"
 	1    6900 3800
 	1    0    0    -1  
 $EndComp
@@ -299,7 +331,7 @@ F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6350 2700
 F 3 "~" H 6350 2700 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
 F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 6 "Digikey Electronics" H 0   0   50  0001 C CNN "VN"
 F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    6350 2700
 	-1   0    0    -1  
@@ -335,6 +367,7 @@ F 0 "R20" H 4968 3046 50  0000 L CNN
 F 1 "R_US" H 4968 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4940 2990 50  0001 C CNN
 F 3 "~" H 4900 3000 50  0001 C CNN
+F 4 "Digikey Electronics" H 4900 3000 50  0001 C CNN "VN"
 	1    4900 3000
 	1    0    0    -1  
 $EndComp
@@ -356,6 +389,7 @@ F 0 "R21" H 8118 3046 50  0000 L CNN
 F 1 "R_US" H 8118 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8090 2990 50  0001 C CNN
 F 3 "~" H 8050 3000 50  0001 C CNN
+F 4 "Digikey Electronics" H 8050 3000 50  0001 C CNN "VN"
 	1    8050 3000
 	1    0    0    -1  
 $EndComp

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:albatros_arduino_shield-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +21,7 @@ F 0 "R11" H 4568 2896 50  0000 L CNN
 F 1 "R_US" H 4568 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4540 2840 50  0001 C CNN
 F 3 "~" H 4500 2850 50  0001 C CNN
+F 4 "Digikey Electronics" H 4500 2850 50  0001 C CNN "VN"
 	1    4500 2850
 	1    0    0    -1  
 $EndComp
@@ -33,6 +33,7 @@ F 0 "R12" H 4568 3946 50  0000 L CNN
 F 1 "R_US" H 4568 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4540 3890 50  0001 C CNN
 F 3 "~" H 4500 3900 50  0001 C CNN
+F 4 "Digikey Electronics" H 4500 3900 50  0001 C CNN "VN"
 	1    4500 3900
 	1    0    0    -1  
 $EndComp
@@ -44,6 +45,7 @@ F 0 "R13" H 4568 4546 50  0000 L CNN
 F 1 "R_US" H 4568 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4540 4490 50  0001 C CNN
 F 3 "~" H 4500 4500 50  0001 C CNN
+F 4 "Digikey Electronics" H 4500 4500 50  0001 C CNN "VN"
 	1    4500 4500
 	1    0    0    -1  
 $EndComp
@@ -91,6 +93,7 @@ F 0 "R14" H 8068 2896 50  0000 L CNN
 F 1 "R_US" H 8068 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8040 2840 50  0001 C CNN
 F 3 "~" H 8000 2850 50  0001 C CNN
+F 4 "Digikey Electronics" H 8000 2850 50  0001 C CNN "VN"
 	1    8000 2850
 	1    0    0    -1  
 $EndComp
@@ -102,6 +105,7 @@ F 0 "R15" H 8068 3946 50  0000 L CNN
 F 1 "R_US" H 8068 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8040 3890 50  0001 C CNN
 F 3 "~" H 8000 3900 50  0001 C CNN
+F 4 "Digikey Electronics" H 8000 3900 50  0001 C CNN "VN"
 	1    8000 3900
 	1    0    0    -1  
 $EndComp
@@ -113,6 +117,7 @@ F 0 "R16" H 8068 4546 50  0000 L CNN
 F 1 "R_US" H 8068 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8040 4490 50  0001 C CNN
 F 3 "~" H 8000 4500 50  0001 C CNN
+F 4 "Digikey Electronics" H 8000 4500 50  0001 C CNN "VN"
 	1    8000 4500
 	1    0    0    -1  
 $EndComp
@@ -162,7 +167,7 @@ F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5450 3200
 F 3 "~" H 5450 3200 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
 F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 6 "Digikey Electronics" H 0   0   50  0001 C CNN "VN"
 F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    5450 3200
 	1    0    0    -1  
@@ -189,7 +194,7 @@ F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8950 3200
 F 3 "~" H 8950 3200 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "MFN"
 F 5 "AE-6410-02A" H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "VN"
+F 6 "Digikey Electronics" H 0   0   50  0001 C CNN "VN"
 F 7 "WM4111-ND" H 0   0   50  0001 C CNN "VPN"
 	1    8950 3200
 	1    0    0    -1  
@@ -214,6 +219,10 @@ F 0 "JP1" H 3900 2735 50  0000 C CNN
 F 1 "Jumper_2_Open" H 3900 2644 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3900 2500 50  0001 C CNN
 F 3 "~" H 3900 2500 50  0001 C CNN
+F 4 "None" H 3900 2500 50  0001 C CNN "MFN"
+F 5 "None" H 3900 2500 50  0001 C CNN "MPN"
+F 6 "None" H 3900 2500 50  0001 C CNN "VN"
+F 7 "None" H 3900 2500 50  0001 C CNN "VPN"
 	1    3900 2500
 	1    0    0    -1  
 $EndComp
@@ -225,6 +234,10 @@ F 0 "JP2" H 3950 3435 50  0000 C CNN
 F 1 "Jumper_2_Open" H 3950 3344 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3950 3200 50  0001 C CNN
 F 3 "~" H 3950 3200 50  0001 C CNN
+F 4 "None" H 3950 3200 50  0001 C CNN "MFN"
+F 5 "None" H 3950 3200 50  0001 C CNN "MPN"
+F 6 "None" H 3950 3200 50  0001 C CNN "VN"
+F 7 "None" H 3950 3200 50  0001 C CNN "VPN"
 	1    3950 3200
 	1    0    0    -1  
 $EndComp
@@ -244,6 +257,10 @@ F 0 "JP3" H 7350 2735 50  0000 C CNN
 F 1 "Jumper_2_Open" H 7350 2644 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7350 2500 50  0001 C CNN
 F 3 "~" H 7350 2500 50  0001 C CNN
+F 4 "None" H 7350 2500 50  0001 C CNN "MFN"
+F 5 "None" H 7350 2500 50  0001 C CNN "MPN"
+F 6 "None" H 7350 2500 50  0001 C CNN "VN"
+F 7 "None" H 7350 2500 50  0001 C CNN "VPN"
 	1    7350 2500
 	1    0    0    -1  
 $EndComp
@@ -255,6 +272,10 @@ F 0 "JP4" H 7350 3435 50  0000 C CNN
 F 1 "Jumper_2_Open" H 7350 3344 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7350 3200 50  0001 C CNN
 F 3 "~" H 7350 3200 50  0001 C CNN
+F 4 "None" H 7350 3200 50  0001 C CNN "MFN"
+F 5 "None" H 7350 3200 50  0001 C CNN "MPN"
+F 6 "None" H 7350 3200 50  0001 C CNN "VN"
+F 7 "None" H 7350 3200 50  0001 C CNN "VPN"
 	1    7350 3200
 	1    0    0    -1  
 $EndComp
